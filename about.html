@@ -2,10 +2,7 @@
 
 <html lang="en">
 
-<!-- Head -->
 
-
-<!-- Mirrored from moliva.themenix.com/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Dec 2024 16:34:31 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,28 +21,114 @@
 <body>
 
     <!-- Preloader -->
-    <div id="preloader">
-        <div class="spinner-border text-primary" role="status">
-            <span class="visually-hidden">Loading...</span>
+
+    <div id="preloader" class="skeleton-wrapper">
+        <!-- Navigation skeleton -->
+        <nav class="nav-skeleton">
+            <div class="logo-skeleton shimmer"></div>
+            <div class="menu-skeleton">
+                <div class="menu-item shimmer"></div>
+                <div class="menu-item shimmer"></div>
+                <div class="menu-item shimmer"></div>
+                <div class="menu-item shimmer"></div>
+            </div>
+            <div class="cta-skeleton">
+                <div class="phone-skeleton shimmer"></div>
+                <div class="button-skeleton shimmer"></div>
+            </div>
+        </nav>
+
+        <!-- Hero section skeleton -->
+        <div class="hero-skeleton">
+            <div class="small-text-skeleton shimmer"></div>
+            <div class="large-text-skeleton-2 shimmer"></div>
+            <div class="large-text-skeleton shimmer"></div>
+            <div class="large-text-skeleton-2 shimmer"></div>
+            <div class="button-skeleton shimmer"></div>
         </div>
     </div>
+
     <!-- /Preloader -->
 
+    <!-- Header -->
     <header class="header">
         <div class="header_in ">
-           
+
+
+
             <div class="logo-section">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logos/logo.png"  alt="">
+                    <img src="assets/img/logos/logo.png" alt="">
                 </a>
             </div>
+
             <ul class="navbar-nav">
-               <li class="nav-item">
-                <a class="nav-link" href="about.html"><span>ABOUT US</span></a>
-               </li>
-               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="destinations-1.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span>ACCOMMODATION</span>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="destinations-1.html" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span>ACCOMMODATION</span>
+                    </a>
+                    <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="package-1.html">Package 1</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="package-2.html">Package 2</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html"><span>PHOTO GALLERY</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="things-to-do.html"><span>THINGS TO DO</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reach.html"><span>HOW TO REACH</span></a>
+                </li>
+
+            </ul>
+            <div class="cta-btn ">
+                <a class="btn    mnw-180" href="tel:+9180808080">
+
+                    <i class="hicon hicon-bold hicon-telephone"></i>
+                    <span>+91-9090909090</span>
+
+                </a>
+            </div>
+            <div class="book-btn ">
+                <a href="booking.html">
+                    <button type="submit" class="btn btn-primary btn-uppercase w-100">
+                        <i class="hicon hicon-bold hicon-menu-bookings"></i>
+                        <span>PLAN YOUR TRIP</span>
+                    </button>
+                </a>
+            </div>
+
+
+            <button type="button" class="toggle ">
+                <i class="hicon hicon-bold hicon-hamburger-menu"></i>
+            </button>
+            <button type="button" class="btn-close ">
+            </button>
+
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Sidebar -->
+    <div class="sidebar" id='sidebar'>
+
+
+        <ul class="mobile-nav-link p-0">
+
+            <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle" href="destinations-1.html" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="hicon hicon-bold hicon-agoda-price-guarante"></i> <span>ACCOMMODATION</span>
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
@@ -54,94 +137,52 @@
                     <li>
                         <a class="dropdown-item" href="package-2.html">Package 2</a>
                     </li>
-                    <li>
-                        <a class="dropdown-item" href="package-3.html">Package 3</a>
-                    </li>
+
                 </ul>
             </li>
-               <li class="nav-item">
-                <a class="nav-link" href="gallery.html"><span>PHOTO GALLERY</span></a>
-               </li>
-               <li class="nav-item">
-                <a class="nav-link" href="things-to-do.html"><span>THINGS TO DO</span></a>
-               </li>
-               <li class="nav-item">
-                <a class="nav-link" href="reach.html"><span>HOW TO REACH</span></a>
-               </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html"><i class="hicon hicon-bold hicon-camera-hover"></i><span>PHOTO
+                        GALLERY</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="things-to-do.html"><i
+                        class="hicon hicon-bold hicon-regular-hiking"></i><span>THINGS TO DO</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reach.html"> <i class="hicon hicon-bold hicon-map-entry"></i><span>HOW TO
+                        REACH</span></a>
+            </li>
+            <hr>
 
-            </ul>
-            <div class="book-btn ">
-                <a href="booking.html"><button type="submit" class="btn btn-primary btn-uppercase w-100">
-                    <i class="hicon hicon-bold hicon-menu-bookings"></i>
-                    <span>BOOKING TOUR</span>
-                </button>
-            </a>
-            </div>
+            <li class="nav-item mt-4">
 
-           
-            <button type="button" class="toggle ">
-             <i class="hicon hicon-bold hicon-hamburger-menu"></i>
+                <a class="nav-link" href="tel:+9180808080">
+                    <i class="hicon hicon-bold hicon-telephone"></i>
+                    <span>+91-808080808</span>
+                </a>
+            </li>
+
+
+        </ul>
+
+        <a href="booking.html">
+            <button type="submit" class="btn text-white btn-primary btn-uppercase w-100">
+                <i class="hicon hicon-bold hicon-menu-bookings"></i>
+                <span>PLAN YOUR TRIP</span>
             </button>
-            <button type="button" class="btn-close " >
-            </button>
-          
-       </div>
-     </header>
+        </a>
 
-     <div class="sidebar" id='sidebar'>
-              
-       
-       <ul class="mobile-nav-link p-0">
-        <li class="nav-item">
-            <a class="nav-link" href="about.html"><i class="hicon hicon-bold hicon-holiday-house"></i><span>ABOUT US</span></a>
-           </li>
-           <li class="nav-item dropdown">
-            
-            <a class="nav-link dropdown-toggle" href="destinations-1.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="hicon hicon-bold hicon-agoda-price-guarante"></i> <span>ACCOMMODATION</span>
-            </a>
-            <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
-                <li>
-                    <a class="dropdown-item" href="package-1.html">Package 1</a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="package-2.html">Package 2</a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="package-3.html">Package 3</a>
-                </li>
-            </ul>
-        </li>
-           <li class="nav-item">
-            <a class="nav-link" href="gallery.html"><i class="hicon hicon-bold hicon-camera-hover"></i><span>PHOTO GALLERY</span></a>
-           </li>
-           <li class="nav-item">
-            <a class="nav-link" href="things-to-do.html"><i class="hicon hicon-bold hicon-regular-hiking"></i><span>THINGS TO DO</span></a>
-           </li>
-           <li class="nav-item">
-            <a class="nav-link" href="reach.html"> <i class="hicon hicon-bold hicon-map-entry"></i><span>HOW TO REACH</span></a>
-           </li>
-           
-        
-       </ul>
-       
-       <a href="booking.html"><button type="submit" class="btn btn-primary btn-uppercase w-100">
-        <i class="hicon hicon-bold hicon-menu-bookings"></i>
-        <span>BOOKING TOUR</span>
-       </a>
-      </button>
-       
-     </div>
-    <!-- Header -->
-   
+    </div>
+    <!-- /Sidebar -->
+
 
     <!-- Main -->
     <main>
 
         <!-- Title -->
-        <section class="hero" data-aos="fade">
+        <section class=" hero sub-page-hero">
             <div class="hero-bg">
-                <img src="assets/img/about/a6.jpg" srcset="./assets/img/about/a6@2x.jpg 2x" alt="">
+                <img src="assets/img/about/a6.webp" alt="">
             </div>
             <div class="bg-content container">
                 <div class="hero-page-title">
@@ -153,7 +194,6 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
                         <li class="breadcrumb-item active" aria-current="page">About us</li>
                     </ol>
                 </nav>
@@ -161,104 +201,127 @@
         </section>
         <!-- /Title -->
 
-        <!-- Featured -->
-        <section class="pt-5 pb-4" data-aos="fade">
-            <div class="container">
-                <ul class="stats-list row g-0">
-                    <li class="col-6 col-xl-3">
-                        <div class="stats-item">
-                            <h2 class="h1 stats-number">+250</h2>
-                            <p class="stats-desc">
-                                Attractive tours <br> around Moliva
-                            </p>
-                        </div>
-                    </li>
-                    <li class="col-6 col-xl-3">
-                        <div class="stats-item">
-                            <h2 class="h1 stats-number">+1.1M</h2>
-                            <p class="stats-desc">
-                                Clients from<br> around the world
-                            </p>
-                        </div>
-                    </li>
-                    <li class="col-6 col-xl-3">
-                        <div class="stats-item">
-                            <h2 class="h1 stats-number">4.9</h2>
-                            <p class="stats-desc">
-                                <span class="star-rate-view star-rate-size-sm"><span class="star-value rate-50"></span></span>
-                                <br>
-                                <span>On Tripadvisor</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li class="col-6 col-xl-3">
-                        <div class="stats-item">
-                            <h2 class="h1 stats-number">+98%</h2>
-                            <p class="stats-desc">
-                                Our clients <br>are satisfied
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- /Featured -->
 
         <!-- About -->
-        <section class="p-top-90 p-bottom-90 bg-gray-gradient" data-aos="fade">
+
+        <section class="p-top-90 p-bottom-90 bg-gray-gradient">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-12 col-xl-6 order-1 order-xl-0">
                         <!-- Image -->
-                        <div class="image-info image-info-vertical me-xl-5">
-                            <div class="vertical-title">
-                                <small class="ls-2">
-                                    <strong class="text-primary fw-semibold">Sine 1993</strong> - <strong class="text-body fw-semibold">31 years</strong> of experience
-                                </small>
-                            </div>
-                            <div class="image-center rounded">
-                                <img src="assets/img/about/a5.jpg" srcset="./assets/img/about/a5@2x.jpg 2x" class="w-100" alt="">
-                            </div>
-                            <div class="position-absolute top-0 end-0 me-4 mt-4">
-                                <div class="vertical-award rounded shadow-sm">
-                                    <div class="award-content">
-                                        <img src="assets/img/logos/trip-best.png" srcset="./assets/img/logos/trip-best@2x.png 2x" class="w-100" alt="">
-                                    </div>
-                                    <div class="award-footer">
-                                        <small>Tripadvisor</small>
-                                    </div>
-                                </div>
+                        <div class="image-info image-info-right image-info-vertical">
+
+                            <div class="image-center">
+                                <img src="assets/img/home/hello2.jpg" class="rounded w-100" alt="">
                             </div>
                         </div>
                         <!-- /Image -->
                     </div>
                     <div class="col-12 col-xl-6 order-0 order-xl-1">
                         <!-- Content -->
-                        <div class="pt-xl-4 mb-xl-0 mb-5">
+                        <div class="mb-5 mb-xl-0">
                             <div class="block-title">
-                                <small class="sub-title">Moliva Travel Agency</small>
-                                <h2 class="h1 title lh-sm">We are the leading tour service provider in Moliva</h2>
+                                <small class="sub-ttile-bold sub-title">About Us River Tern Lodge</small>
+                                <h1 class="h1 title">Welcome to River Tern Lodge </h1>
                             </div>
                             <p>
-                                Moliva Travel Agency is your gateway to unforgettable adventures in the beautiful
-                                country of Moliva. With years of experience and a passion for travel, we offer
-                                expertly curated tours that showcase Moliva's stunning landscapes, vibrant culture,
-                                and rich history. Our dedicated team ensures every aspect of your journey is seamless,
-                                from comfortable accommodations to immersive activities. Whether exploring majestic
-                                mountains, serene lakes, or bustling market districts, our itineraries cater to all
-                                interests. At Moliva Travel Agency, we pride ourselves on exceptional service and
-                                unique experiences that leave lasting memories. Discover Moliva’s hidden gems with us!
+                                A serene retreat nestled on the picturesque hillocks
+                                overlooking the tranquil Bhadra Reservoir in Karnataka's Chikmagalur district. Our
+                                lodge, named after the nearby islands that attract hundreds of river terns during their
+                                breeding season, offers guests a unique and thrilling opportunity to witness this
+                                natural spectacle up close.
                             </p>
-                            <div class="pt-3">
-                                <a href="contact.html" class="btn btn-primary mnw-180">
-                                    <i class="hicon hicon-email-envelope"></i>
-                                    <span>Let's talk now</span>
-                                </a>
-                                <a href="tel:+33321654987" class="btn btn-link link-dark link-hover fw-medium mnw-180">
-                                    <i class="hicon hicon-telephone"></i>
-                                    <span>+33 321-654-987</span>
-                                </a>
+
+                            <h2 class="h2 title">A Perfect Blend of Nature and Comfort</h2>
+                            <p>
+                                For those seeking adventure, River Tern Lodge offers a range of water-based
+                                activities
+                                on the Bhadra Reservoir, including kayaking, sailing, and joy fishing. These
+                                activities
+                                are all supervised by trained experts who adhere to stringent safety guidelines,
+                                ensuring a secure and enjoyable experience for our guests.
+                            </p>
+                            <ul class="strength-list row g-0 pt-4">
+                                <li class="col-12 col-md-6">
+                                    <div class="strength-item">
+                                        <span class="strength-icon">
+                                            <i class="hicon hicon-150 hicon-confirmation-instant"></i>
+                                        </span>
+                                        <strong class="strength-title">Immersive Nature</strong>
+                                    </div>
+                                </li>
+                                <li class="col-12 col-md-6">
+                                    <div class="strength-item">
+                                        <span class="strength-icon">
+                                            <i class="hicon hicon-150 hicon-menu-price-display"></i>
+                                        </span>
+                                        <strong class="strength-title">Tailored Packages</strong>
+                                    </div>
+                                </li>
+                                <li class="col-12 col-md-6">
+                                    <div class="strength-item">
+                                        <span class="strength-icon">
+                                            <i class="hicon hicon-150 hicon-pay-on-checkin"></i>
+                                        </span>
+                                        <strong class="strength-title">Customized Itineraries</strong>
+                                    </div>
+                                </li>
+                                <li class="col-12 col-md-6">
+                                    <div class="strength-item">
+                                        <span class="strength-icon">
+                                            <i class="hicon hicon-150 hicon-agoda-price-guarante"></i>
+                                        </span>
+                                        <strong class="strength-title">Eco-Lodge Excellence</strong>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- /Content -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="p-top-90 p-bottom-90 bg-gray-gradient">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-12 col-xl-6 order-1 order-xl-0">
+                        <!-- Image -->
+                        <div class="image-info image-info-right image-info-vertical">
+
+                            <div class="image-center">
+                                <img src="assets/img/home/hello4.webp" class="rounded w-100" alt="">
                             </div>
+                        </div>
+                        <!-- /Image -->
+                    </div>
+                    <div class="col-12 col-xl-6 order-0 order-xl-1">
+                        <!-- Content -->
+                        <div class="mb-5 mb-xl-0">
+
+                            <h2 class="h2 title">Explore the Wilderness</h2>
+                            <p>
+                                Situated just 4 kilometres from the Bhadra Tiger Reserve, our lodge is an ideal base
+                                for
+                                wildlife enthusiasts. Guests can embark on jeep and boat safaris to explore the
+                                reserve's rich biodiversity, which includes tigers, leopards, elephants, gaurs, and
+                                a
+                                variety of bird species, including the Malabar pied hornbill and grey-headed fish
+                                eagle.
+                            </p>
+                            <h2 class="h2 title">Adventure and Recreation</h2>
+                            <p>
+
+                                For those seeking adventure, River Tern Lodge offers a range of water-based
+                                activities
+                                on the Bhadra Reservoir, including kayaking, sailing, and joy fishing. These
+                                activities
+                                are all supervised by trained experts who adhere to stringent safety guidelines,
+                                ensuring a secure and enjoyable experience for our guests.
+                            </p>
+
                         </div>
                         <!-- /Content -->
                     </div>
@@ -267,670 +330,322 @@
         </section>
         <!-- /About -->
 
-        <!-- Why -->
-        <section class="hero" data-aos="fade">
-            <div class="hero-bg">
-                <img src="assets/img/background/b6.jpg" srcset="./assets/img/background/b6@2x.jpg 2x" alt="">
-            </div>
-            <div class="bg-content container">
-                <div class="p-top-90 p-bottom-50">
-                    <div class="block-title text-center pb-4">
-                        <small class="sub-title">Great experience</small>
-                        <h2 class="h1 title text-white">Why choose us</h2>
-                    </div>
-                    <div class="why-slider splide splide__pagination__start w-100 mb-5 mb-xl-0">
-                        <div class="splide__track pt-2 pb-2">
-                            <ul class="splide__list">
-                                <li class="splide__slide">
-                                    <div class="transparent-card rounded hover-effect">
-                                        <div class="card-icon">
-                                            <i class="hicon hicon-family-with-teens"></i>
-                                        </div>
-                                        <h3 class="h5 card-title">Leading travel agency in Moliva</h3>
-                                        <p class="card-desc">
-                                            Top-rated agency in Moliva is renowned for exceptional service and unforgettable travel experiences.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="transparent-card rounded hover-effect">
-                                        <div class="card-icon">
-                                            <i class="hicon hicon-regular-travel-protection"></i>
-                                        </div>
-                                        <h3 class="h5 card-title">Years of experience in tour operations</h3>
-                                        <p class="card-desc">
-                                            With years of expertise, we excel at organizing seamless, enjoyable, and memorable tours for every traveler.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="transparent-card rounded hover-effect">
-                                        <div class="card-icon">
-                                            <i class="hicon hicon-tours"></i>
-                                        </div>
-                                        <h3 class="h5 card-title">Flexible tour packages and bookings</h3>
-                                        <p class="card-desc">
-                                            We offer customizable trips with flexible packages and convenient booking options tailored to your needs.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="splide__slide">
-                                    <div class="transparent-card rounded hover-effect">
-                                        <div class="card-icon">
-                                            <i class="hicon hicon-tours"></i>
-                                        </div>
-                                        <h3 class="h5 card-title">Best prices with attractive Offers</h3>
-                                        <p class="card-desc">
-                                            Enjoy unbeatable prices and exclusive offers, ensuring you receive great value with memorable vacation.
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
+
+        <section class="p-top-90 p-bottom-90 bg-gray-gradient aos-init aos-animate">
+            <div class="container">
+                <div class="row pb-5 g-0">
+                    <div class="row g-0">
+                        <div class="col-12 col-xl-6 order-1 order-xl-0">
+                            <!-- Image -->
+                            <div class="image-info image-info-right image-info-vertical">
+
+                                <div class="image-center">
+                                    <img src="assets/img/home/hello4.jpg" class="rounded w-100" alt="">
+                                </div>
+                            </div>
+                            <!-- /Image -->
+                        </div>
+                        <div class="col-12 col-xl-6 order-0 order-xl-1">
+                            <!-- Content -->
+                            <div class="mb-5 mb-xl-0">
+                                <div class="block-title">
+
+                                    <h2 class="h2 title">Culinary Delights</h2>
+                                </div>
+                                <p>
+                                    Our Gol Ghar, a group dining area, serves a delectable buffet featuring both
+                                    vegetarian and non-vegetarian dishes. Guests can savour local flavours while
+                                    enjoying panoramic views of the reservoir. The open-air setting and the soothing
+                                    sounds of nature enhance the dining experience. Meals are crafted to provide a
+                                    wholesome dining experience, complementing the serene ambience of the lodge.
+                                </p>
+
+                                <h2 class="h2 title">Plan Your Visit</h2>
+                                <p>
+                                    River Tern Lodge is accessible by road, approximately 283 kilometres from Bengaluru.
+                                    The nearest railway stations are Tarikere and Shimoga, connecting to major cities,
+                                    while the closest airport is the Shivamogga domestic airport, around 24 kilometres
+                                    away. The lodge is a year-round destination, offering a unique experience of the
+                                    Western Ghats' natural beauty each season.
+                                </p>
+                                <div class="pt-3  ">
+                                    <a href="booking.html"
+                                        class="btn sub-title-bold mx-auto btn-primary btn-uppercase mnw-180">
+                                        <span>PLAN YOUR TRIP</span>
+                                        <i class="hicon hicon-flights-one-ways"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- /Content -->
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Why -->
 
-        <!-- Our team -->
-        <section class="p-top-90 p-bottom-90 bg-gray-gradient" data-aos="fade">
-            <div class="container">
-                <div class="team-slider splide mb-5">
-                    <!-- Title -->
-                    <div class="block-title text-center pb-3">
-                        <small class="sub-title">Enthusiastic people</small>
-                        <h2 class="h1 title">Meet our team</h2>
-                    </div>
-                    <!-- /Title -->
-                    <!-- Team -->
-                    <div class="splide__track pt-2 pb-2">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
-                                <div class="team shadow-sm rounded hover-effect">
-                                    <img src="assets/img/team/t2.jpg" srcset="./assets/img/team/t2@2x.jpg 2x" alt="">
-                                    <div class="team-info">
-                                        <h3 class="h5 team-name">John Doe</h3>
-                                        <span class="team-city">CEO</span>
-                                        <ul class="social-list d-inline-block mb-0">
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
-                                                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-                                                        <path d="M8 11l0 5"></path>
-                                                        <path d="M8 8l0 .01"></path>
-                                                        <path d="M12 16l0 -5"></path>
-                                                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M8 20l4 -9"></path>
-                                                        <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"></path>
-                                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="team shadow-sm rounded hover-effect">
-                                    <img src="assets/img/team/t1.jpg" srcset="./assets/img/team/t1@2x.jpg 2x" alt="">
-                                    <div class="team-info">
-                                        <h3 class="h5 team-name">Emily Smith</h3>
-                                        <span class="team-city">Marketing Manager</span>
-                                        <ul class="social-list d-inline-block mb-0">
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
-                                                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-                                                        <path d="M8 11l0 5"></path>
-                                                        <path d="M8 8l0 .01"></path>
-                                                        <path d="M12 16l0 -5"></path>
-                                                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M8 20l4 -9"></path>
-                                                        <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"></path>
-                                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="team shadow-sm rounded hover-effect">
-                                    <img src="assets/img/team/t3.jpg" srcset="./assets/img/team/t3@2x.jpg 2x" alt="">
-                                    <div class="team-info">
-                                        <h3 class="h5 team-name">Alex Mark</h3>
-                                        <span class="team-city">Tour guide</span>
-                                        <ul class="social-list d-inline-block mb-0">
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
-                                                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-                                                        <path d="M8 11l0 5"></path>
-                                                        <path d="M8 8l0 .01"></path>
-                                                        <path d="M12 16l0 -5"></path>
-                                                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M8 20l4 -9"></path>
-                                                        <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"></path>
-                                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="team shadow-sm rounded hover-effect">
-                                    <img src="assets/img/team/t5.jpg" srcset="./assets/img/team/t5@2x.jpg 2x" alt="">
-                                    <div class="team-info">
-                                        <h3 class="h5 team-name">Tom Cruise</h3>
-                                        <span class="team-city">Financial management</span>
-                                        <ul class="social-list d-inline-block mb-0">
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
-                                                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-                                                        <path d="M8 11l0 5"></path>
-                                                        <path d="M8 8l0 .01"></path>
-                                                        <path d="M12 16l0 -5"></path>
-                                                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M8 20l4 -9"></path>
-                                                        <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"></path>
-                                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="team shadow-sm rounded hover-effect">
-                                    <img src="assets/img/team/t4.jpg" srcset="./assets/img/team/t4@2x.jpg 2x" alt="">
-                                    <div class="team-info">
-                                        <h3 class="h5 team-name">Anna Lee</h3>
-                                        <span class="team-city">Tour Operator</span>
-                                        <ul class="social-list d-inline-block mb-0">
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
-                                                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-                                                        <path d="M8 11l0 5"></path>
-                                                        <path d="M8 8l0 .01"></path>
-                                                        <path d="M12 16l0 -5"></path>
-                                                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M8 20l4 -9"></path>
-                                                        <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"></path>
-                                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="team shadow-sm rounded hover-effect">
-                                    <img src="assets/img/team/t4.jpg" srcset="./assets/img/team/t4@2x.jpg 2x" alt="">
-                                    <div class="team-info">
-                                        <h3 class="h5 team-name">Anna Lee</h3>
-                                        <span class="team-city">Tour Operator</span>
-                                        <ul class="social-list d-inline-block mb-0">
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
-                                                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-                                                        <path d="M8 11l0 5"></path>
-                                                        <path d="M8 8l0 .01"></path>
-                                                        <path d="M12 16l0 -5"></path>
-                                                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                            <li class="social-item">
-                                                <a href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                        <path d="M8 20l4 -9"></path>
-                                                        <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"></path>
-                                                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                                                    </svg>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /Team -->
                 </div>
-            </div>
-        </section>
-        <!-- /Our team -->
-
-        <!-- Testimonials -->
-        <section class="p-top-90 p-bottom-90 bg-gray-gradient" data-aos="fade">
-            <div class="container">
-                <!-- Title -->
-                <div class="text-center mb-4">
-                    <div class="block-title">
-                        <small class="sub-title">Genuine Reviews</small>
-                        <h2 class="h1 title">Tourists talk about us</h2>
-                    </div>
-                    <div class="d-lg-inline-flex align-items-lg-center mb-3">
-                        <div class="extra-info me-md-4">
-                            <strong>+95K</strong>
-                            <span>Tour bookings</span>
-                        </div>
-                        <div class="extra-info me-md-4">
-                            <strong>4.9</strong>
-                            <span class="fw-medium text-secondary">
-                                <span class="star-rate-view star-rate-size-sm"><span class="star-value rate-50"></span></span>
-                                <span>(+85K reviews)</span>
+                <!-- Overview -->
+                <div class="row g-3 g-lg-4  mb-0">
+                    <div class="col-6 col-xl-3">
+                        <div class="mini-card card-simple card-mobile-small">
+                            <span class="card-icon">
+                                <i class="hicon hicon-global"></i>
                             </span>
+                            <div class="card-content">
+                                <small class="card-desc">Location</small>
+                                <h3 class="h5 card-title">Bhadra, India</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="mini-card card-simple card-mobile-small">
+                            <span class="card-icon">
+                                <i class="hicon hicon-poi"></i>
+                            </span>
+                            <div class="card-content">
+                                <small class="card-desc">Ecosystem</small>
+                                <h3 class="h5 card-title">Deciduous Forest</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="mini-card card-simple card-mobile-small">
+                            <span class="card-icon">
+                                <i class="hicon hicon-seriously-multilingual"></i>
+                            </span>
+                            <div class="card-content">
+                                <small class="card-desc">Activities</small>
+                                <h3 class="h5 card-title">Wildlife Tours</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="mini-card card-simple card-mobile-small">
+                            <span class="card-icon">
+                                <i class="hicon hicon-more-money"></i>
+                            </span>
+                            <div class="card-content">
+                                <small class="card-desc">Currency</small>
+                                <h3 class="h5 card-title">Moli</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="mini-card card-simple card-mobile-small">
+                            <span class="card-icon">
+                                <i class="hicon hicon-light-snow"></i>
+                            </span>
+                            <div class="card-content">
+                                <small class="card-desc">Weather</small>
+                                <h3 class="h5 card-title">4 Seasons</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="mini-card card-simple card-mobile-small">
+                            <span class="card-icon">
+                                <i class="hicon hicon-wintry-mix-snow-sleet"></i>
+                            </span>
+                            <div class="card-content">
+                                <small class="card-desc">Winter (avg)</small>
+                                <h3 class="h5 card-title">41°F/5°C</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="mini-card card-simple card-mobile-small">
+                            <span class="card-icon">
+                                <i class="hicon hicon-partly-cloudy-day"></i>
+                            </span>
+                            <div class="card-content">
+                                <small class="card-desc">Summer (avg)</small>
+                                <h3 class="h5 card-title">68°F/20°C</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="mini-card card-simple card-mobile-small">
+                            <span class="card-icon">
+                                <i class="hicon hicon-time-clock"></i>
+                            </span>
+                            <div class="card-content">
+                                <small class="card-desc">Time Zone</small>
+                                <h3 class="h5 card-title">GMT+2</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- /Title -->
-                <div class="testimonials-slider-3 splide mb-5">
-                    <!-- Testimonial list -->
-                    <div class="splide__track pt-2 pb-2">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
-                                <!-- Testimonial -->
-                                <div class="testimonial-above mb-1 hover-effect">
-                                    <div class="testimonial-content rounded shadow-sm">
-                                        <div class="testimonial-star">
-                                            <span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span>
-                                        </div>
-                                        <blockquote class="testimonial-review">
-                                            Our trip to Moliva was amazing! Moliva Travel Agency organized everything perfectly,
-                                            from the hotels to the sightseeing spots. I was very impressed and will definitely return!
-                                        </blockquote>
-                                        <div class="testimonial-name">
-                                            <h3 class="h5 mb-0">John Doe</h3>
-                                            <span>Venice, Italy</span>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-avatar shadow-sm">
-                                        <img src="assets/img/avatars/a1.jpg" srcset="./assets/img/avatars/a1@2x.jpg 2x" alt="">
-                                        <span class="testimonial-icon">
-                                            <i class="hicon hicon-message-right"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <!-- /Testimonial -->
-                            </li>
-                            <li class="splide__slide">
-                                <!-- Testimonial -->
-                                <div class="testimonial-above mb-1 hover-effect">
-                                    <div class="testimonial-content rounded shadow-sm">
-                                        <div class="testimonial-star">
-                                            <span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span>
-                                        </div>
-                                        <blockquote class="testimonial-review">
-                                            We had an unforgettable vacation in Moliva thanks to the excellent service of Moliva Travel Agency.
-                                            The itinerary was well-arranged, and the support team was very helpful. Best trip ever!
-                                        </blockquote>
-                                        <div class="testimonial-name">
-                                            <h3 class="h5 mb-0">Emily Smith</h3>
-                                            <span>Chicago, USA</span>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-avatar shadow-sm">
-                                        <img src="assets/img/avatars/a2.jpg" srcset="./assets/img/avatars/a2@2x.jpg 2x" alt="">
-                                        <span class="testimonial-icon">
-                                            <i class="hicon hicon-message-right"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <!-- /Testimonial -->
-                            </li>
-                            <li class="splide__slide">
-                                <!-- Testimonial -->
-                                <div class="testimonial-above mb-1 hover-effect">
-                                    <div class="testimonial-content rounded shadow-sm">
-                                        <div class="testimonial-star">
-                                            <span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span>
-                                        </div>
-                                        <blockquote class="testimonial-review">
-                                            Moliva is a perfect destination, and Moliva Travel Agency made our trip flawless.
-                                            From booking to sightseeing activities, everything was wonderful. I am very satisfied!
-                                        </blockquote>
-                                        <div class="testimonial-name">
-                                            <h3 class="h5 mb-0">Alex Mark</h3>
-                                            <span>Texas, USA</span>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-avatar shadow-sm">
-                                        <img src="assets/img/avatars/a3.jpg" srcset="./assets/img/avatars/a3@2x.jpg 2x" alt="">
-                                        <span class="testimonial-icon">
-                                            <i class="hicon hicon-message-right"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <!-- /Testimonial -->
-                            </li>
-                            <li class="splide__slide">
-                                <!-- /Testimonial -->
-                                <div class="testimonial-above mb-1 hover-effect">
-                                    <div class="testimonial-content rounded shadow-sm">
-                                        <div class="testimonial-star">
-                                            <span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span>
-                                        </div>
-                                        <blockquote class="testimonial-review">
-                                            Moliva Travel Agency provided an excellent vacation in Moliva. Tours were well-organized,
-                                            the schedule was great, and customer service was top-notch. Highly recommended!
-                                        </blockquote>
-                                        <div class="testimonial-name">
-                                            <h3 class="h5 mb-0">Ariol Deep</h3>
-                                            <span>Lisbon, Portugal</span>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-avatar shadow-sm">
-                                        <img src="assets/img/avatars/a4.jpg" srcset="./assets/img/avatars/a4@2x.jpg 2x" alt="">
-                                        <span class="testimonial-icon">
-                                            <i class="hicon hicon-message-right"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <!-- /Testimonial -->
-                            </li>
-                            <li class="splide__slide">
-                                <!-- /Testimonial -->
-                                <div class="testimonial-above mb-1 hover-effect">
-                                    <div class="testimonial-content rounded shadow-sm">
-                                        <div class="testimonial-star">
-                                            <span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span>
-                                        </div>
-                                        <blockquote class="testimonial-review">
-                                            Rationi bus incor rupte vim te. Choro nominati cum choro epicuri deleniti eu asse ntior te sit,
-                                            mea tale movet docendi quae stio vis ut. An vitae altera fierent nam vis.
-                                        </blockquote>
-                                        <div class="testimonial-name">
-                                            <h3 class="h5 mb-0">Tom Cruise</h3>
-                                            <span>Texas, USA</span>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-avatar shadow-sm">
-                                        <img src="assets/img/avatars/a6.jpg" srcset="./assets/img/avatars/a6@2x.jpg 2x" alt="">
-                                        <span class="testimonial-icon">
-                                            <i class="hicon hicon-message-right"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <!-- /Testimonial -->
-                            </li>
-                        </ul>
+                <!-- /Overview -->
+
+            </div>
+        </section>
+
+        <section class="p-top-50 p-bottom-50 bg-gray-gradient aos-init aos-animate">
+            <div class="container">
+
+                <div class="card border-0 shadow-sm p-xl-2 mb-4 aos-init aos-animate" data-aos="fade">
+                    <div class="card-body">
+                        <div class="border-bottom mb-4 pb-4">
+                            <h2 class="text-body-emphasis mb-0">Guest Experiences</h2>
+                        </div>
+                        <div class="d-lg-flex border-bottom pb-3 mb-4">
+                            <div class="mnw-200 guest-icon">
+
+                                <i class="hicon hicon-regular-family-with-teens-new"></i>
+
+
+                            </div>
+                            <p>Our guests have consistently praised River Tern Lodge's exceptional hospitality,
+                                comfortable accommodations, and immersive wildlife experiences. Many highlight the
+                                thrilling safaris and serene environment as standout features of their stay.
+                            </p>
+
+                        </div>
+
+
                     </div>
-                    <!-- Testimonial list -->
+                </div>
+
+                <div class="card border-0 shadow-sm p-xl-2 mb-4 aos-init aos-animate" data-aos="fade">
+                    <div class="card-body">
+                        <div class="border-bottom mb-4 pb-4">
+                            <h2 class="text-body-emphasis mb-0">Book Your Stay</h2>
+                        </div>
+                        <div class="d-lg-flex border-bottom pb-3 mb-4">
+                            <div class="mnw-200 guest-icon">
+
+                                <i class="hicon hicon-instant-booking"></i>
+
+
+                            </div>
+                            <p> We invite you to experience the tranquillity and adventure River Tern Lodge offers.
+                                Whether you're a nature lover, adventure enthusiast, or seeking a peaceful retreat, our
+                                lodge provides an ideal setting to create lasting memories. For reservations and
+                                inquiries, please get in touch with us at book@riverternlodge.com or call
+                                +91-12345-12345.<br><br>
+                                Embark on a journey where nature meets comfort at River Tern Lodge, Bhadra.
+                            </p>
+
+                        </div>
+                        <div class="d-lg-flex">
+                            <div class="mnw-200">
+                                <h3 class="h5">Get in touch</h3>
+                            </div>
+
+                            <div class="cta-btn mt-2  me-4 ">
+                                <a class="btn    mnw-180" href="tel:+9180808080">
+
+                                    <i class="hicon hicon-bold hicon-telephone"></i>
+                                    <span>+91-9090909090</span>
+
+                                </a>
+                            </div>
+
+                            <div class="cta-btn mt-2  me-4 ">
+
+                                <a class=" btn mnw-180" href="mailto:book@riverternlodge.com">
+
+                                    <i class="hicon hicon-bold hicon-email-envelope"></i>
+                                    <span>book@riverternlodge.com</span>
+
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- /testimonials -->
+
+
+
+
 
     </main>
     <!-- /Main -->
 
     <!-- Footer -->
-    <footer class="footer p-top-90 p-bottom-90" data-aos="fade">
+    <footer class="footer">
 
         <!-- Footer top -->
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-xl-3 col-md-6">
+                    <div class="col-12 col-xl-4 me-5  col-md-6 ">
                         <!-- Brand -->
-                        <div class="footer-widget">
-                            <a href="index-2.html" class="brand-img">
-                                <img class="me-4" src="assets/img/logos/footer-logo.png" srcset="./assets/img/logos/footer-logo@2x.png 2x" alt="">
+                        <div class="footer-widget ">
+                            <a href="index.html" class="brand-img">
+                                <!-- <img class="me-4" src="assets/img/logos/footer-logo.png" alt=""> -->
+                                <h2>River Tern Lodge Bhadra</h2>
                             </a>
-                            <p class="brand-desc">
-                                <em>
-                                    Moliva Travel Agency offers unique and memorable tours, providing rich experiences in the beautiful country of Moliva.
-                                </em>
-                                <a href="about.html">[+]</a>
+                            <p class="brand-desc text-white ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus a maiores
+                                aliquid? Maiores, voluptate nesciunt minus assumenda animi recusandae!
                             </p>
+                            <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">
                                 <li class="social-item">
-                                    <a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="1.75" stroke="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                                        </svg>
-                                    </a>
+                                    <img src="assets/img/FooteSVG/paypal.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                            <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-                                            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-                                        </svg>
-                                    </a>
+                                    <img src="assets/img/FooteSVG/mastercard.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.75" stroke="none" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <path d="M3 5m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"></path>
-                                            <path d="M10 9l5 3l-5 3z"></path>
-                                        </svg>
-                                    </a>
+                                    <img src="assets/img/FooteSVG/visa.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.75" stroke="none" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <path d="M8 20l4 -9"></path>
-                                            <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"></path>
-                                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                                        </svg>
-                                    </a>
+                                    <img src="assets/img/FooteSVG/american-express.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <a href="#">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.75" stroke="none" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <path d="M6.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"></path>
-                                            <path d="M17.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"></path>
-                                            <path d="M17.5 9a4.5 4.5 0 1 0 3.5 1.671l1 -1.671h-4.5z"></path>
-                                            <path d="M6.5 9a4.5 4.5 0 1 1 -3.5 1.671l-1 -1.671h4.5z"></path>
-                                            <path d="M10.5 15.5l1.5 2l1.5 -2"></path>
-                                            <path d="M9 6.75c2 -.667 4 -.667 6 0"></path>
-                                        </svg>
-                                    </a>
+                                    <img src="assets/img/FooteSVG/rupay.svg" alt="payment-icons">
                                 </li>
                             </ul>
                         </div>
                         <!-- /Brand -->
                     </div>
-                    <div class="col-12 col-xl-3 col-md-6">
-                        <!-- Contact Info -->
-                        <div class="footer-widget">
-                            <h2 class="h4 pb-3">Contact Info</h2>
-                            <div class="contact-info">
-                                <p>
-                                    <span>No 234, Placer Loquen Marsei Niriva, Moliva.</span>
-                                </p>
-                                <p>
-                                    <span>+33 321-654-987 (Ext: 123).</span>
-                                </p>
-                                <p>
-                                    <a href="#">Booking@example.com</a>
-                                </p>
-                                <p>
-                                    <a href="#">www.example.com</a>
-                                </p>
-                            </div>
-                        </div>
-                        <!-- /Contact Info -->
-                    </div>
-                    <div class="col-12 col-xl-3 col-md-6">
+
+                    <div class="col-12 col-xl-2  col-md-6">
                         <!-- Quick Links -->
                         <div class="footer-widget">
-                            <h2 class="h4 pb-3">Moliva Travel</h2>
+                            <h2 class="h4 pb-2">Navigation</h2>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="about.html">About us</a>
+                                    <a href="about.html">About River Tern</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="destinations-1.html">Destinations</a>
+                                    <a href="gallery.html">Photo Gallery</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="tour-packages-1.html">Moliva Tours</a>
+                                    <a href="things-to-do.html">Things To Do </a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="post-list.html">Travel insight</a>
+                                    <a href="reach.html">How To Reach</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.html">Contact us</a>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /Quick Links -->
+                    </div>
+                    <div class="col-12 col-xl-2 me-5 col-md-6  ">
+                        <!-- Quick Links -->
+                        <div class="footer-widget">
+                            <h2 class="h4 pb-2">Accommodation</h2>
+                            <ul class="footer-link">
+                                <li class="link-item">
+                                    <a href="package-1.html">Pakcage 1</a>
+                                </li>
+                                <li class="link-item">
+                                    <a href="package-1.html">Package 2</a>
+                                </li>
+                                <li class="link-item">
+                                    <a href="package-1.html">Package 3</a>
+                                </li>
+                                <li class="link-item">
+                                    <a href="package-1.html">Package 4</a>
+                                </li>
+                                <li class="link-item">
+                                    <a href="cancellation.html">Cancellation Policy</a>
                                 </li>
                             </ul>
                         </div>
@@ -938,34 +653,38 @@
                     </div>
                     <div class="col-12 col-xl-3 col-md-6">
                         <div class="footer-widget">
-                            <h2 class="h4 pb-3">Get the app</h2>
+                            <h2 class="h4 pb-2"> Get In Touch </h2>
                             <!-- Mobile App -->
-                            <div class="mb-5 pt-3">
-                                <div class="row g-3">
-                                    <div class="col-6">
-                                        <a href="#">
-                                            <img src="assets/img/icons/i1.svg" class="w-100" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="col-6">
-                                        <a href="#">
-                                            <img src="assets/img/icons/i2.svg" class="w-100" alt="">
-                                        </a>
-                                    </div>
+
+                            <div class="footer-local">
+
+                                <div class="col-1">
+                                    <i class="hicon hicon-map-entry"></i>
+
                                 </div>
+                                <div class="col-10">
+                                    <p class="text-white">Rivertern Lodge Bhadra, <br>
+                                        Behind Ranganathaswamy <br>
+                                        Temple, Tarikere, Lakkavalli,<br>
+                                        Karnataka 577115</p>
+                                </div>
+
                             </div>
+
+
                             <!-- /Mobile App -->
                             <!-- Social -->
-                            <div class="footer-local">
-                                <a data-bs-toggle="modal" href="#mdlLanguage" class="me-4">
-                                    <img src="assets/img/flags/en.svg" height="14" alt="" class="me-2">
-                                    <span class="me-1">English</span>
-                                    <i class="hicon hicon-thin-arrow-down fsm-6"></i>
-                                </a>
-                                <a data-bs-toggle="modal" href="#mdlCurrency">
-                                    <span class="me-1">USD (US Dollar)</span>
-                                    <i class="hicon hicon-thin-arrow-down fsm-6"></i>
-                                </a>
+                            <div class="footer-local ">
+
+                                <div class="col-1 footer-contact-main ">
+                                    <i class="hicon hicon-telephone "></i>
+                                    <i class="hicon hicon-email-envelope "></i>
+                                </div>
+                                <div class=" footer-contact  col-8">
+                                    <a href="tel:+9090909090">+91-9090909090</a>
+                                    <a href="mailto:book@expample.com">book@expample.com</a>
+                                </div>
+
                             </div>
                             <!-- /Social -->
                         </div>
@@ -978,18 +697,22 @@
         <!-- Footer Bottom -->
         <div class="footer-bottom">
             <div class="container">
+
                 <div class="row">
+
                     <div class="col-12 col-md-6">
-                        <p class="mb-lg-0">© 2024 Moliva Travel Agency. All rights reserved.</p>
+                        <p class="mb-lg-0">©<span class="me-2" id="currentYear"></span><span id="footer-mark"><a
+                                    href="./index.html">RiverternLodgeBhadra.com.</a></span> All rights reserved.</p>
                     </div>
+
                     <div class="col-12 col-md-6">
                         <div class="text-start text-md-end">
                             <ul class="list-inline mb-lg-0">
                                 <li class="list-inline-item">
-                                    <a href="#">Privacy Policy</a>
+                                    <a href="terms.html">Terms and Conditions</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">Terms of Use</a>
+                                    <a href="privacy.html">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>
@@ -1002,11 +725,6 @@
     </footer>
     <!-- /Footer -->
 
-    <!-- Scroll top -->
-    <a href="#" class="scroll-top">
-        <i class="hicon hicon-thin-arrow-up"></i>
-    </a>
-    <!-- /Scroll top -->
 
     <script defer src="assets/js/theme-1.min.js"></script>
     <script defer src="assets/js/theme-2.min.js"></script>
@@ -1014,6 +732,4 @@
 
 </body>
 
-
-<!-- Mirrored from moliva.themenix.com/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Dec 2024 16:34:50 GMT -->
 </html>

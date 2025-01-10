@@ -3,6 +3,10 @@
 
 :root,
 [data-bs-theme=light] {
+
+    --bs-green-dark: #1a2e05;
+    --bs-green-700: #4d7c0f;
+
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -199,6 +203,8 @@ body {
     color: var(--bs-body-color);
     text-align: var(--bs-body-text-align);
     background-color: var(--bs-body-bg);
+    width: 100vw;
+
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
 }
@@ -209,6 +215,24 @@ hr {
     border: 0;
     border-top: var(--bs-border-width) solid;
     opacity: .25
+}
+
+main {
+    width: 100vw;
+
+}
+
+.hero {
+    padding-inline: 0px;
+}
+
+section {
+    padding-inline: 1.5rem;
+}
+
+p {
+    text-align: justify;
+    font-weight: 380;
 }
 
 .h1,
@@ -268,6 +292,8 @@ h3 {
         font-size: 1.75rem
     }
 }
+
+
 
 .h4,
 h4 {
@@ -3454,11 +3480,18 @@ textarea.form-control.is-invalid {
     }
 }
 
+html {
+    overflow-x: hidden;
+    width: 99vw;
+}
+
 .btn:hover {
     color: var(--bs-btn-hover-color);
-    background-color: var(--bs-btn-hover-bg);
+    background-color: var(--bs-green-700);
     border-color: var(--bs-btn-hover-border-color)
 }
+
+
 
 .btn-check+.btn:hover {
     color: var(--bs-btn-color);
@@ -4543,6 +4576,11 @@ fieldset:disabled .btn {
     color: var(--bs-navbar-brand-color);
     text-decoration: none;
     white-space: nowrap
+}
+
+.navbar-brand img {
+
+    height: 4rem;
 }
 
 .navbar-brand:focus,
