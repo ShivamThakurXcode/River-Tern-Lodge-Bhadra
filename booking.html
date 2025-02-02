@@ -17,6 +17,7 @@
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.6/dist/flatpickr.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <!-- /Head -->
@@ -73,10 +74,10 @@
                     </a>
                     <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="package-1.html">Package 1</a>
+                            <a class="dropdown-item" href="Loghut.html">Loghut Package</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="package-2.html">Package 2</a>
+                            <a class="dropdown-item" href="Cottage.html">Cottage Package</a>
                         </li>
 
                     </ul>
@@ -134,10 +135,10 @@
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="package-1.html">Package 1</a>
+                        <a class="dropdown-item" href="Loghut.html">Loghut Package</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="package-2.html">Package 2</a>
+                        <a class="dropdown-item" href="Cottage.html">Cottage Package</a>
                     </li>
 
                 </ul>
@@ -239,7 +240,7 @@
                             <h2 class="h3 text-center ff-primary mb-0 text-body-emphasis"> PLAN YOUR TRIP at RiverTern
                             </h2>
                         </div>
-                        <form method="post">
+                        <form method="post" id="bookingForm" action="https://www.riverternlodgebhadra.com/thankyou.php">
                             <div class="border-bottom pb-4 mb-4">
                                 <h3 class="h4 mb-4">Your information</h3>
                                 <div class="row g-3">
@@ -309,6 +310,10 @@
                                                 placeholder="Childs" min="1" required>
                                         </div>
                                     </div>
+                                    <div
+                                        class="col-12 col-md-12 d-flex justify-content-center align-items-center mt-4 pb-2">
+                                        <div class=" g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                                    </div>
 
                                 </div>
                             </div>
@@ -331,7 +336,6 @@
     </main>
     <!-- /Main -->
 
-    <!-- Footer -->
     <!-- Footer -->
     <footer class="footer">
 
@@ -389,9 +393,7 @@
                                 <li class="link-item">
                                     <a href="reach.html">How To Reach</a>
                                 </li>
-                                <li class="link-item">
-                                    <a href="contact.html">Contact Us</a>
-                                </li>
+
                             </ul>
                         </div>
                         <!-- /Quick Links -->
@@ -402,16 +404,13 @@
                             <h2 class="h4 pb-2">Accommodation</h2>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="package-1.html">Pakcage 1</a>
+                                    <a href="package-1.html">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="package-1.html">Package 2</a>
+                                    <a href="package-1.html">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="package-1.html">Package 3</a>
-                                </li>
-                                <li class="link-item">
-                                    <a href="package-1.html">Package 4</a>
+                                    <a href="contact.html">Contact Us</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cancellation.html">Cancellation Policy</a>

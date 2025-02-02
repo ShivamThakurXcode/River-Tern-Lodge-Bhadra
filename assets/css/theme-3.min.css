@@ -7241,6 +7241,103 @@ h6 {
     }
 }
 
+@media (max-width:767.98px) {
+    .pkg-card .card-icon {
+        margin: 5px;
+        font-size: smaller;
+
+    }
+
+    .pkg-card {
+        width: 100%;
+        padding: 10px 5px;
+
+    }
+
+    .pkg-card .card-content .card-title {
+        font-size: smaller;
+    }
+
+    .pkg-price-box .review-content .review-score {
+        font-size: 2rem;
+    }
+
+    .pkg-price-box .review-label small {
+        font-size: small !important;
+        text-wrap: nowrap;
+    }
+}
+
+.pkg-price-box .review-content .review-score {
+    font-size: 3rem;
+}
+
+
+
+.table-container {
+    margin-bottom: 32px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: .8px solid var(--bs-primary);
+    overflow: hidden
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse
+}
+
+td,
+th {
+    padding: 12px 30px;
+    text-align: left;
+    font-size: 14px
+}
+
+tr td:first-child {
+    width: 30%;
+    overflow-wrap: break-word;
+
+}
+
+td tr td:nth-child(2) {
+    text-align: start
+}
+
+th {
+    font-size: 16px;
+    font-weight: 600;
+    color: #374151
+}
+
+thead tr:first-child th {
+    background-color: #fffbee
+}
+
+thead tr:last-child th {
+    background-color: #c6ff7e4d;
+    border-bottom: .8px solid var(--bs-primary);
+    font-size: 20px;
+    text-align: center;
+    color: #6b7280;
+    text-transform: uppercase
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9fafb
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff
+}
+
+tbody td {
+    font-size: 20px;
+
+}
+
+
+
 .image-hover {
     display: block;
     max-width: 100%;
