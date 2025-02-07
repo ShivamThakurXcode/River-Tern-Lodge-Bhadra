@@ -15,6 +15,7 @@
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <!-- /Head -->
@@ -182,7 +183,7 @@
         <!-- Title -->
         <section class=" hero sub-page-hero">
             <div class="hero-bg">
-                <img src="assets/img/about/a6.webp" alt="">
+                <div class="image-cover"></div>
             </div>
             <div class="bg-content container">
                 <div class="hero-page-title">
@@ -669,63 +670,7 @@
                                     <p> <a href="cancellation.html">Click here </a>to review the cancellation and
                                         postponement policy.
                                     </p>
-                                    <!-- <div class="d-lg-flex border-bottom pb-3 mb-4">
-                                        <div class="mnw-200">
-                                            <h3 class="h5">Cancellation Policy:</h3>
-                                        </div>
-                                        <div>
-                                            <p>All request for cancellation of confirmed booking have to be received
-                                                through email (Used while booking) or in writing if booked at our office
-                                                in Bangalore.
 
-                                                10% of the booking amount, if cancelled 15 Days before check in
-                                                date/time.
-
-                                                50% of the booking amount, if cancelled between 48hours to 14 Days
-                                                before check in date/time.
-
-                                                No refund for no show & if cancelled less than 48hours before check in
-                                                date/time.</p>
-                                        </div>
-                                    </div> -->
-
-
-                                    <!-- <div class="d-lg-flex border-bottom pb-3 mb-4">
-                                        <div class="mnw-200">
-                                            <h3 class="h5">Postponed Policy:</h3>
-                                        </div>
-                                        <p>Postponement / Preponement is free if requested 15 Days before check in
-                                            date/time (Once postponed /preponed there is no further change or
-                                            cancellation).
-
-                                            20% of the booking amount, if requested between 7 Days to 14 Days before
-                                            check in date/time.
-
-                                            50% of the booking amount, if requested within 24hours to 7 Days before
-                                            check in date/time.
-
-                                            No modification, if requested within 24 hours to check in.</p>
-
-                                    </div> -->
-
-                                    <!-- <div class="d-lg-flex">
-                                        <div class="mnw-200">
-                                            <h3 class="h5">Other terms</h3>
-                                        </div>
-                                        <p>
-                                            To book, a deposit is required, with the balance due 30 days before
-                                            departure.
-                                            Cancellations made over 30 days in advance are refundable minus a fee,
-                                            while those within 30 days are non-refundable. Travel insurance is
-                                            recommended but not included.
-                                            Itineraries may change due to unforeseen conditions, and travelers must
-                                            follow health and safety regulations.
-                                            Luggage includes one checked bag and one carry-on; excess baggage may incur
-                                            extra fees.
-                                            Respectful behavior is required, and special requests should be made at
-                                            booking, subject to availability.
-                                        </p>
-                                    </div> -->
                                 </div>
                             </div>
                             <!-- /Policy -->
@@ -862,7 +807,8 @@
 
                                     </div>
                                     <div class="border-bottom  ">
-                                        <form class="row g-3" method="post">
+                                        <form class="row g-3" method="post"
+                                            action="www.riverternlodgebhadra.com/thankyou.php">
                                             <div class="col-12">
                                                 <div class="mb-2">
                                                     <div class="input-icon-group">
@@ -931,6 +877,10 @@
                                                 </div>
                                             </div>
                                             <hr>
+                                            <div class="col-12 col-md-12 d-flex justify-content-center">
+                                                <div class="g-recaptcha"
+                                                    data-sitekey="6Lc2vcoqAAAAAKIJAOEq-i52UQ2DmuuliLmA1Otq"></div>
+                                            </div>
                                             <div class="col-12">
                                                 <div class="mb-0">
                                                     <button type="submit" class="btn btn-primary btn-uppercase w-100">

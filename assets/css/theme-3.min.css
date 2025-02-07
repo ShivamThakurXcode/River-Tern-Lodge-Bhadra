@@ -8679,12 +8679,23 @@ tbody td {
     content: unset
 }
 
+.hero .hero-bg .image-cover {
+    background-image: url('../img/background/blob-scene-haikei.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    /* Fixed typo */
+    background-size: cover;
+    /* Ensures the image covers the entire element */
+    width: 100vw;
+    height: 100%;
+}
+
 .hero .hero-bg img {
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover
+    background-position: center center;
 }
+
 
 .hero .bg-content {
     position: relative
@@ -9129,7 +9140,10 @@ tbody td {
     background-color: rgba(var(--bs-black-rgb), .35);
     padding: .85rem .35rem .75rem .35rem;
     margin: 0;
-    border-radius: var(--bs-border-radius-sm)
+    border-radius: var(--bs-border-radius-sm);
+    backdrop-filter: blur(8px);
+    border: 0.2px solid #ffffff73;
+
 }
 
 .hero nav[aria-label=breadcrumb] .breadcrumb .breadcrumb-item+.breadcrumb-item {
