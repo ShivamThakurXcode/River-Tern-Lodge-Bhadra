@@ -304,17 +304,17 @@
                                     <h2 class="h3 text-center ff-primary mb-0 text-body-emphasis"> Contact to RiverTern
                                         Bhadra</h2>
                                 </div>
-                                <form method="post" action="https://www.riverternlodgebhadra.com/thankyou.php">
+                                <form method="post" action="thankyou.php">
                                     <div class="border-bottom pb-4 mb-4">
                                         <h3 class="h4 mb-4">Your Information</h3>
                                         <div class="row g-3">
                                             <div class="col-12">
                                                 <div class="mb-2">
                                                     <div class="input-icon-group">
-                                                        <label class="input-icon hicon hicon-topic-user "
+                                                        <label class="input-icon hicon hicon-topic-user"
                                                             for="txtName"></label>
                                                         <input type="text" class="form-control shadow-sm" id="txtName"
-                                                            placeholder="Full Name" required>
+                                                            name="txtName" placeholder="Full Name" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -324,7 +324,7 @@
                                                         <label class="input-icon hicon hicon-telephone hicon-bold"
                                                             for="txtPhone"></label>
                                                         <input type="tel" class="form-control shadow-sm" id="txtPhone"
-                                                            placeholder="Mobile Number" required>
+                                                            name="txtPhone" placeholder="Mobile Number" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -334,14 +334,15 @@
                                                         <label class="input-icon hicon hicon-email-envelope hicon-bold"
                                                             for="txtEmail"></label>
                                                         <input type="email" class="form-control shadow-sm" id="txtEmail"
-                                                            placeholder="Email Address" required>
+                                                            name="txtEmail" placeholder="Email Address" required>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-12">
                                                 <div class="mb-2">
                                                     <textarea class="form-control shadow-sm" id="txtMessage"
-                                                        placeholder="Your Message" rows="4" required></textarea>
+                                                        name="txtMessage" placeholder="Your Message" rows="4"
+                                                        required></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-12 d-flex justify-content-center">
@@ -350,15 +351,14 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="mt-4">
                                         <button type="submit" class="btn btn-primary btn-uppercase w-100">
                                             <i class="hicon hicon-bold hicon-menu-bookings"></i>
                                             <span>SEND MESSAGE</span>
                                         </button>
                                     </div>
-
                                 </form>
+
                             </div>
                         </div>
                         <!-- /Booking & Payment -->

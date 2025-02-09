@@ -205,9 +205,12 @@
         <!-- /Title -->
 
 
+
+
+
         <!-- Tour details -->
 
-        <section class="p-top-50 p-bottom-50 bg-gray-gradient">
+        <section class=" p-top-50 p-bottom-50 bg-gray-gradient">
 
             <div class="container">
 
@@ -224,7 +227,8 @@
 
                             </div>
                             <p>
-                                Experience a fantastic adventure at River Tern Lodge in the beautiful Bhadra Wildlife
+                                Experience a fantastic adventure at River Tern Lodge in the beautiful Bhadra
+                                Wildlife
                                 Sanctuary in Karnataka. Please share your travel plans below!
                             </p>
 
@@ -237,29 +241,30 @@
                 <div class="card border-0 shadow-sm mt-2 sticky-top sticky-top-120 z-0 aos-init aos-animate">
                     <div class="card-body">
                         <div class="border-bottom pb-4 mb-4">
-                            <h2 class="h3 text-center ff-primary mb-0 text-body-emphasis"> PLAN YOUR TRIP at RiverTern
+                            <h2 class="h3 text-center ff-primary mb-0 text-body-emphasis"> PLAN YOUR TRIP at
+                                RiverTern
                             </h2>
                         </div>
-                        <form method="post" id="bookingForm" action="https://www.riverternlodgebhadra.com/thankyou.php">
+                        <form method="post" id="bookingForm" action="thankyou.php">
                             <div class="border-bottom pb-4 mb-4">
-                                <h3 class="h4 mb-4">Your information</h3>
+                                <h3 class="h4 mb-4">Your Information</h3>
                                 <div class="row g-3">
                                     <div class="col-12">
                                         <div class="mb-2">
                                             <div class="input-icon-group">
-                                                <label class="input-icon hicon hicon-topic-user " for="txtName"></label>
+                                                <label class="input-icon hicon hicon-topic-user" for="txtName"></label>
                                                 <input type="text" class="form-control shadow-sm" id="txtName"
-                                                    placeholder="Full Name" required>
+                                                    name="txtName" placeholder="Full Name" required>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 ">
+                                    <div class="col-12">
                                         <div class="mb-2">
                                             <div class="input-icon-group">
                                                 <label class="input-icon hicon hicon-telephone hicon-bold"
                                                     for="txtPhone"></label>
                                                 <input type="tel" class="form-control shadow-sm" id="txtPhone"
-                                                    placeholder="Mobile Number" required>
+                                                    name="txtPhone" placeholder="Mobile Number" required>
                                             </div>
                                         </div>
                                     </div>
@@ -269,17 +274,17 @@
                                                 <label class="input-icon hicon hicon-email-envelope hicon-bold"
                                                     for="txtEmail"></label>
                                                 <input type="email" class="form-control shadow-sm" id="txtEmail"
-                                                    placeholder="Email Address" required>
+                                                    name="txtEmail" placeholder="Email Address" required>
                                             </div>
                                         </div>
                                     </div>
-                                    <h3 class="h4 mb-4">Additional information</h3>
+                                    <h3 class="h4 mb-4">Additional Information</h3>
 
                                     <div class="col-12 col-md-6">
                                         <div class="mb-2">
                                             <div class="input-icon-group">
                                                 <input id="checkIn" type="text" class="form-control shadow-sm"
-                                                    placeholder="Check-in" required>
+                                                    name="checkIn" placeholder="Check-in" required>
                                                 <label class="input-icon hicon hicon-menu-calendar hicon-bold"
                                                     for="checkIn"></label>
                                             </div>
@@ -289,7 +294,7 @@
                                         <div class="mb-2">
                                             <div class="input-icon-group">
                                                 <input id="checkOut" type="text" class="form-control shadow-sm"
-                                                    placeholder="Check-out" required>
+                                                    name="checkOut" placeholder="Check-out" required>
                                                 <label class="input-icon hicon hicon-menu-calendar hicon-bold"
                                                     for="checkOut"></label>
                                             </div>
@@ -299,34 +304,32 @@
                                         <div class="input-icon-group">
                                             <label class="input-icon hicon hicon-adults-one" for="selAdults"></label>
                                             <input type="number" class="form-control shadow-sm" id="selAdults"
-                                                placeholder="Adults" min="1" required>
+                                                name="selAdults" placeholder="Adults" min="1" required>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <div class="input-icon-group">
                                             <label class="input-icon hicon hicon-child-line hicon-bold"
                                                 for="selchildren"></label>
-                                            <input type="number" class="form-control shadow-sm" id="selAdults"
-                                                placeholder="Childs" min="1" required>
+                                            <input type="number" class="form-control shadow-sm" id="selchildren"
+                                                name="selchildren" placeholder="Children" min="0" required>
                                         </div>
                                     </div>
                                     <div
                                         class="col-12 col-md-12 d-flex justify-content-center align-items-center mt-4 pb-2">
-                                        <div class=" g-recaptcha"
+                                        <div class="g-recaptcha"
                                             data-sitekey="6Lc2vcoqAAAAAKIJAOEq-i52UQ2DmuuliLmA1Otq"></div>
                                     </div>
-
                                 </div>
                             </div>
-
                             <div class="mt-4">
                                 <button type="submit" class="btn btn-primary btn-uppercase w-100">
                                     <i class="hicon hicon-bold hicon-menu-bookings"></i>
                                     <span>PLAN YOUR TRIP</span>
                                 </button>
                             </div>
-
                         </form>
+
                     </div>
                 </div>
             </div>

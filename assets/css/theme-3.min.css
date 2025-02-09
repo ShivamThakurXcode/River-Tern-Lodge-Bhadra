@@ -8680,7 +8680,7 @@ tbody td {
 }
 
 .hero .hero-bg .image-cover {
-    background-image: url('../img/background/blob-scene-haikei.svg');
+    background-image: url('/assets/img/background/blob-scene-haikei.svg');
     background-repeat: no-repeat;
     background-position: right center;
     /* Fixed typo */
@@ -8694,6 +8694,10 @@ tbody td {
     width: 100%;
     height: 100%;
     background-position: center center;
+}
+
+#thank-you-bg {
+    background-image: url('/assets/img/background/thankyou-svg.svg');
 }
 
 
