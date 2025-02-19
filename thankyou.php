@@ -10,7 +10,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
     <!-- Favicon and CSS files -->
-    <link href="assets/img/logos/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="assets/img/logos/favicon.webp" rel="shortcut icon" type="image/png">
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
 
             <div class="logo-section">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logos/logo.png" alt="">
+                    <img src="assets/img/logos/Logo.webp" alt="">
                 </a>
             </div>
 
@@ -46,7 +46,7 @@
                             <a class="dropdown-item" href="Loghut.html">Loghut Package</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="Cottage.html">Cottage Package</a>
+                            <a class="dropdown-item" href="cottage.html">Cottage Package</a>
                         </li>
 
                     </ul>
@@ -63,10 +63,10 @@
 
             </ul>
             <div class="cta-btn ">
-                <a class="btn    mnw-180" href="tel:+9180808080">
+                <a class="btn    mnw-180" href="tel:+919480022108">
 
                     <i class="hicon hicon-bold hicon-telephone"></i>
-                    <span>+91-9090909090</span>
+                    <span>+91-9480022108</span>
 
                 </a>
             </div>
@@ -107,7 +107,7 @@
                         <a class="dropdown-item" href="Loghut.html">Loghut Package</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="Cottage.html">Cottage Package</a>
+                        <a class="dropdown-item" href="cottage.html">Cottage Package</a>
                     </li>
 
                 </ul>
@@ -128,9 +128,9 @@
 
             <li class="nav-item mt-4">
 
-                <a class="nav-link" href="tel:+9180808080">
+                <a class="nav-link" href="tel:+919480022108">
                     <i class="hicon hicon-bold hicon-telephone"></i>
-                    <span>+91-808080808</span>
+                    <span>+91-94800221088</span>
                 </a>
             </li>
 
@@ -184,7 +184,7 @@
 
             if (empty($errors)) {
                 // Admin email
-                $admin_email = "shivam.it1311@gmail.com"; // Replace with your email
+                $admin_email = "book@riverternlodge.com";
 
                 // Subject based on the form type
                 $subject = !empty($message) ? "New Contact Form Submission" : "New Booking Request";
@@ -225,25 +225,26 @@
 
                 if ($adminEmailSent && $userEmailSent) {
                     echo '
-              <section class=" hero p-top-110 p-bottom-50 sub-page-hero">
+              <section class=" hero mt-4 p-top-40 p-bottom-50 sub-page-hero">
 
-            <div id="thank-you-bg" style=";
+            <div id="thank-you-bg" style=" 
+    background-image: url(assets/img/background/thankyou-svg.svg);
             background-repeat: no-repeat;
             object-fit: cover;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat; padding-inline: 1rem;
             background-position: center center; 
-            background-size: cover; height: 80vh;" class="bg-content  card container">
+            background-size: cover; height: max-content;" class="bg-content  card container">
                 <div class="p-top-80 d-flex flex-column text-center text-white">
                     <span class=" hero-sub-title">Rivertern Lodge Bhadra</span>
                     <h1 class="display-5  hero-title">
                         Thank you for reaching out to us!
                     </h1>
-                    <p class="m-xxl-auto">Hello,' . htmlspecialchars($name) . '  We have received your message and will respond
-                        promptly. </p>
+                    <div class="m-xxl-auto">Hello,<span style="text-transform: capitalize; font-size: 1.2rem;">  '  . htmlspecialchars($name) . ' </span>. We have received your message and will respond
+                        promptly. </div>
                 </div>
 
 
-                <div style="width: 95%;" class="d-flex flex-row col-12  m-xxl-auto  justify-content-between gap-3  ">
+                <div style="width: 95%;" class="d-flex flex-row col-12 flex-wrap  m-xxl-auto  justify-content-between gap-3  ">
 
                     <div class="col-12 mt-5 col-xl-4 col-lg-4">
                         <!-- Review summary -->
@@ -314,7 +315,7 @@
                         <!-- Brand -->
                         <div class="footer-widget ">
                             <a href="index.html" class="brand-img">
-                                <!-- <img class="me-4" src="assets/img/logos/footer-logo.png" alt=""> -->
+                                <!-- <img class="me-4" src="assets/img/logos/footer-Logo.webp" alt=""> -->
                                 <h2>River Tern Lodge Bhadra</h2>
                             </a>
                             <p class="brand-desc text-white ">
@@ -374,7 +375,7 @@
                                     <a href="Loghut.html">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="Cottage.html">Cottage Package</a>
+                                    <a href="cottage.html">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="contact.html">Contact Us</a>
@@ -387,7 +388,7 @@
                         <!-- /Quick Links -->
                     </div>
                     <div class="col-12 col-xl-3 col-md-6">
-                        <div class="footer-widget">
+                        < class="footer-widget">
                             <h2 class="h4 pb-2"> Get In Touch </h2>
                             <!-- Mobile App -->
 
@@ -416,16 +417,17 @@
                                     <i class="hicon hicon-email-envelope "></i>
                                 </div>
                                 <div class=" footer-contact  col-8">
-                                    <a href="tel:+9090909090">+91-9090909090</a>
-                                    <a href="mailto:book@expample.com">book@expample.com</a>
+                                    <a href="tel:+9480022108">+91-9480022108</a>
+                                    <a href="mailto:book@riverternlodge.com ">book@riverternlodge.com
+                                    </a>
                                 </div>
 
                             </div>
                             <!-- /Social -->
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <!-- /Footer top -->
 
@@ -437,7 +439,7 @@
 
                     <div class="col-12 col-md-6">
                         <p class="mb-lg-0">© <span class="me-2" id="currentYear"></span> <span id="footer-mark"><a
-                                    href="./index.html">RiverternLodgeBhadra.com.</a></span> All rights reserved.</p>
+                                    href="index.html">RiverternLodgeBhadra.com.</a></span> All rights reserved.</p>
                     </div>
 
                     <div class="col-12 col-md-6">

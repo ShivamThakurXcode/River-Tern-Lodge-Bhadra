@@ -7259,7 +7259,7 @@ h6 {
     }
 
     .pkg-price-box .review-content .review-score {
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
 
     .pkg-price-box .review-label small {
@@ -8697,7 +8697,7 @@ tbody td {
 }
 
 #thank-you-bg {
-    background-image: url('/assets/img/background/thankyou-svg.svg');
+    background-image: url('assets/img/background/thankyou-svg.svg');
 }
 
 
@@ -9022,12 +9022,12 @@ tbody td {
 
 .hero .hero-page-title {
     text-align: center;
-    padding-top: 150px;
-    padding-bottom: 90px
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .hero .hero-page-title.hero-title-search {
-    padding-bottom: calc(140px + 3rem)
+    padding-bottom: calc(140px + 3rem);
 }
 
 .hero .hero-review {
@@ -9066,12 +9066,12 @@ tbody td {
 }
 
 .hero .hero-review .review-total .star-rate-view {
-    margin-bottom: .25rem
+    margin-bottom: .25rem;
 }
 
 .hero .hero-review .review-label {
     text-align: center;
-    display: inline-block
+    display: inline-block;
 }
 
 .hero .hero-review .review-label>small {
@@ -9098,18 +9098,18 @@ tbody td {
 }
 
 .hero .hero-review .review-label>small.review-label-lg {
-    font-size: 1rem
+    font-size: 1rem;
 }
 
 .hero .hero-review .review-label>small.review-label-sm {
-    font-size: .65rem
+    font-size: .65rem;
 }
 
 .hero .hero-review .review-title {
     border-bottom: 1px solid var(--bs-border-color);
     padding-bottom: 1rem;
     margin-bottom: 1rem;
-    line-height: 1
+    line-height: 1;
 }
 
 .hero nav[aria-label=breadcrumb] {
@@ -9123,13 +9123,14 @@ tbody td {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
+
     align-items: center;
     position: absolute;
     height: 100%;
     font-size: .65rem;
     letter-spacing: .135rem;
     z-index: 1;
-    display: none
+    display: none;
 }
 
 .hero nav[aria-label=breadcrumb] .breadcrumb {
@@ -10967,7 +10968,7 @@ tbody td {
 }
 
 .header_in .logo-section {
-    margin-right: 6.5rem;
+    margin-right: 4.5rem;
 }
 
 .header_in .navbar-nav .nav-link {

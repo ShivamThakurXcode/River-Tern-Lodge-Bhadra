@@ -30,7 +30,7 @@ River Tern Lodge is a premium wildlife resort located in the Bhadra Wildlife San
 - Online inquiry form
 
 ## Location
-River Tern Lodge is situated at:
+  River Tern Lodge is situated at:
 - Bhadra Wildlife Sanctuary
 - Lakkavalli
 - Chikmagalur District
@@ -40,7 +40,7 @@ River Tern Lodge is situated at:
 
 ### Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, or Edge)
-- Internet connection for booking functionality
+- Internet connection for booking functionality.
 
 ### Installation
 1. Clone the repository
@@ -53,6 +53,7 @@ River Tern Lodge is situated at:
 - JavaScript
 - Bootstrap 5
 - jQuery
+
 
 ### Key Components
 - Responsive navigation system
