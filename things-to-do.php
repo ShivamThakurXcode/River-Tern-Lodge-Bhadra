@@ -7,13 +7,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Things To Do - Rivertern Lodge Bhadra </title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description"
+        content="Discover the exciting things to do at Rivertern Lodge Bhadra, a serene getaway in Karnataka's Chikmagalur district.">
+    <meta name="keywords"
+        content="Rivertern Lodge Bhadra, Things to Do, Karnataka, Chikmagalur, Eco-Lodge, Nature Retreat, Adventure, Wildlife Sanctuary">
 
     <link href="assets/img/logos/favicon.webp" rel="shortcut icon" type="image/png">
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
+    <link rel="canonical" href="https://www.riverternlodgebhadra.com/things-to-do.php" />
 </head>
 <!-- /Head -->
 
@@ -32,36 +35,38 @@
 
 
             <div class="logo-section">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logos/Logo.webp" alt="">
+                <a class="navbar-brand" href="index.php">
+                    <img height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/logos/Logo.webp" alt="RiverTern">
                 </a>
             </div>
 
             <ul class="navbar-nav">
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="destinations-1.html" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         <span>ACCOMMODATION</span>
                     </a>
                     <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="Loghut.html">Loghut Package</a>
+                            <a class="dropdown-item" href="loghut.php
+
+">Loghut Package</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="cottage.html">Cottage Package</a>
+                            <a class="dropdown-item" href="cottage.php">Cottage Package</a>
                         </li>
 
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html"><span>PHOTO GALLERY</span></a>
+                    <a class="nav-link" href="gallery.php"><span>PHOTO GALLERY</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="things-to-do.html"><span>THINGS TO DO</span></a>
+                    <a class="nav-link" href="things-to-do.php"><span>THINGS TO DO</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="reach.html"><span>HOW TO REACH</span></a>
+                    <a class="nav-link" href="reach.php"><span>HOW TO REACH</span></a>
                 </li>
 
             </ul>
@@ -74,7 +79,7 @@
                 </a>
             </div>
             <div class="book-btn ">
-                <a href="booking.html">
+                <a href="booking.php">
                     <button type="submit" class="btn btn-primary btn-uppercase w-100">
                         <i class="hicon hicon-bold hicon-menu-bookings"></i>
                         <span>PLAN YOUR TRIP</span>
@@ -101,34 +106,34 @@
 
             <li class="nav-item dropdown">
 
-                <a class="nav-link dropdown-toggle" href="destinations-1.html" id="navbarDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
                     <i class="hicon hicon-bold hicon-agoda-price-guarante"></i> <span>ACCOMMODATION</span>
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="Loghut.html">Loghut Package</a>
+                        <a class="dropdown-item" href="loghut.php
+
+">Loghut Package</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="cottage.html">Cottage Package</a>
+                        <a class="dropdown-item" href="cottage.php">Cottage Package</a>
                     </li>
 
                 </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="gallery.html"><i class="hicon hicon-bold hicon-camera-hover"></i><span>PHOTO
+                <a class="nav-link" href="gallery.php"><i class="hicon hicon-bold hicon-camera-hover"></i><span>PHOTO
                         GALLERY</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="things-to-do.html"><i
+                <a class="nav-link" href="things-to-do.php"><i
                         class="hicon hicon-bold hicon-regular-hiking"></i><span>THINGS TO DO</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="reach.html"> <i class="hicon hicon-bold hicon-map-entry"></i><span>HOW TO
+            <li class="nav-item border-bottom">
+                <a class="nav-link" href="reach.php"> <i class="hicon hicon-bold hicon-map-entry"></i><span>HOW TO
                         REACH</span></a>
             </li>
-            <hr>
-
             <li class="nav-item mt-4">
 
                 <a class="nav-link" href="tel:+9480022108">
@@ -140,7 +145,7 @@
 
         </ul>
 
-        <a href="booking.html">
+        <a href="booking.php">
             <button type="submit" class="btn text-white btn-primary btn-uppercase w-100">
                 <i class="hicon hicon-bold hicon-menu-bookings"></i>
                 <span>PLAN YOUR TRIP</span>
@@ -168,7 +173,7 @@
                 </div>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
 
                         <li class="breadcrumb-item active" aria-current="page">Things To Do</li>
                     </ol>
@@ -219,8 +224,8 @@
                                         <div class="image-info image-info-right ">
 
                                             <div class="image-center">
-                                                <img src="assets/img/destinations/hello2.jpg" class="rounded w-100"
-                                                    alt="">
+                                                <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/destinations/hello2.webp" class="rounded w-100"
+                                                    alt="RiverTern">
                                             </div>
                                         </div>
                                         <!-- /Image -->
@@ -285,8 +290,8 @@
                                         <div class="image-info image-info-right ">
 
                                             <div class="image-center">
-                                                <img src="assets/img/destinations/hello.jpg" class="rounded w-100"
-                                                    alt="">
+                                                <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/destinations/hello.webp" class="rounded w-100"
+                                                    alt="RiverTern">
                                             </div>
                                         </div>
                                         <!-- /Image -->
@@ -301,8 +306,8 @@
                                         <div class="image-info image-info-right ">
 
                                             <div class="image-center">
-                                                <img src="assets/img/destinations/home-4.jpg" class="rounded w-100"
-                                                    alt="">
+                                                <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/destinations/home-4.webp" class="rounded w-100"
+                                                    alt="RiverTern">
                                             </div>
                                         </div>
                                         <!-- /Image -->
@@ -368,7 +373,8 @@
                                         <div class="image-info image-info-right ">
 
                                             <div class="image-center">
-                                                <img src="assets/img/home/hello-4.webp" class="rounded w-100" alt="">
+                                                <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/home/hello-4.webp" class="rounded w-100"
+                                                    alt="RiverTern">
                                             </div>
                                         </div>
                                         <!-- /Image -->
@@ -389,7 +395,7 @@
                 <div class="card border-0 shadow-sm p-xl-2 mb-5 aos-init aos-animate">
                     <div class="card-body">
                         <div class="border-bottom mb-4 pb-4">
-                            <h2 class="text-body-emphasis mb-0">More to Explore</h2>
+                            <h3 class="text-body-emphasis mb-0">More to Explore</h3>
                         </div>
                         <div class="d-lg-flex border-bottom pb-3 mb-4">
                             <div class="mnw-200 guest-icon">
@@ -414,7 +420,7 @@
                 <div class="card border-0 shadow-sm p-xl-2 mb-5 aos-init aos-animate">
                     <div class="card-body">
                         <div class="border-bottom mb-4 pb-4">
-                            <h2 class="text-body-emphasis mb-0"> Why Wait?</h2>
+                            <h3 class="text-body-emphasis mb-0"> Why Wait?</h3>
                         </div>
                         <div class="d-lg-flex border-bottom pb-3 mb-4">
                             <div class="mnw-200 guest-icon">
@@ -451,9 +457,9 @@
                     <div class="col-12 col-xl-4 me-5  col-md-6 ">
                         <!-- Brand -->
                         <div class="footer-widget ">
-                            <a href="index.html" class="brand-img">
-                                <!-- <img class="me-4" src="assets/img/logos/footer-Logo.webp" alt=""> -->
-                                <h2>River Tern Lodge Bhadra</h2>
+                            <a href="index.php" class="brand-img">
+                                <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RiverTern"> -->
+                                <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
                             <p class="brand-desc text-white ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus a maiores
@@ -462,19 +468,19 @@
                             <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/paypal.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/paypal.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/mastercard.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/mastercard.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/visa.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/visa.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/american-express.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/american-express.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/rupay.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/rupay.svg" alt="payment-icons">
                                 </li>
                             </ul>
                         </div>
@@ -484,19 +490,19 @@
                     <div class="col-12 col-xl-2  col-md-6">
                         <!-- Quick Links -->
                         <div class="footer-widget">
-                            <h2 class="h4 pb-2">Navigation</h2>
+                            <h4 class="h4 text-white pb-2">Navigation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="about.html">About River Tern</a>
+                                    <a href="about.php">About River Tern</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="gallery.html">Photo Gallery</a>
+                                    <a href="gallery.php">Photo Gallery</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="things-to-do.html">Things To Do </a>
+                                    <a href="things-to-do.php">Things To Do </a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="reach.html">How To Reach</a>
+                                    <a href="reach.php">How To Reach</a>
                                 </li>
 
                             </ul>
@@ -506,19 +512,21 @@
                     <div class="col-12 col-xl-2 me-5 col-md-6  ">
                         <!-- Quick Links -->
                         <div class="footer-widget">
-                            <h2 class="h4 pb-2">Accommodation</h2>
+                            <h4 class="h4 text-white pb-2">Accommodation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="loghut.html">Loghut Package</a>
+                                    <a href="loghut.php
+
+">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="cottage.html">Cottage Package</a>
+                                    <a href="cottage.php">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.html">Contact Us</a>
+                                    <a href="contact.php">Contact Us</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="cancellation.html">Cancellation Policy</a>
+                                    <a href="cancellation.php">Cancellation Policy</a>
                                 </li>
                             </ul>
                         </div>
@@ -526,7 +534,7 @@
                     </div>
                     <div class="col-12 col-xl-3 col-md-6">
                         <div class="footer-widget">
-                            <h2 class="h4 pb-2"> Get In Touch </h2>
+                            <h4 class="h4 text-white pb-2"> Get In Touch </h4>
                             <!-- Mobile App -->
 
                             <div class="footer-local">
@@ -577,17 +585,17 @@
 
                     <div class="col-12 col-md-6">
                         <p class="mb-lg-0">© <span class="me-2" id="currentYear"></span> <span id="footer-mark"><a
-                                    href="index.html">RiverternLodgeBhadra.com.</a></span> All rights reserved.</p>
+                                    href="index.php">RiverternLodgeBhadra.com.</a></span> All rights reserved.</p>
                     </div>
 
                     <div class="col-12 col-md-6">
                         <div class="text-start text-md-end">
                             <ul class="list-inline mb-lg-0">
                                 <li class="list-inline-item">
-                                    <a href="terms.html">Terms and Conditions</a>
+                                    <a href="terms.php">Terms and Conditions</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="privacy.html">Privacy Policy</a>
+                                    <a href="privacy.php">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>

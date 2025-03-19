@@ -6,14 +6,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You - River Tern Bhadra </title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Thank you for choosing Rivertern Lodge Bhadra, a serene getaway in Karnataka's Chikmagalur district.">
+    <meta name="keywords" content="Rivertern Lodge Bhadra, Thank You, Karnataka, Chikmagalur, Eco-Lodge, Nature Retreat, Adventure, Wildlife Sanctuary">
+    <meta name="author" content="Rivertern Lodge Bhadra">
     <!-- Favicon and CSS files -->
     <link href="assets/img/logos/favicon.webp" rel="shortcut icon" type="image/png">
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
+    <link rel="canonical" href="https://www.riverternlodgebhadra.com/thankyou.php" />
 
 
 
@@ -29,8 +30,8 @@
 
 
             <div class="logo-section">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logos/Logo.webp" alt="">
+                <a class="navbar-brand" href="index.php">
+                    <img height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/logos/Logo.webp" alt="RiverTern">
                 </a>
             </div>
 
@@ -43,22 +44,24 @@
                     </a>
                     <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="Loghut.html">Loghut Package</a>
+                            <a class="dropdown-item" href="loghut.php
+
+">Loghut Package</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="cottage.html">Cottage Package</a>
+                            <a class="dropdown-item" href="cottage.php">Cottage Package</a>
                         </li>
 
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html"><span>PHOTO GALLERY</span></a>
+                    <a class="nav-link" href="gallery.php"><span>PHOTO GALLERY</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="things-to-do.html"><span>THINGS TO DO</span></a>
+                    <a class="nav-link" href="things-to-do.php"><span>THINGS TO DO</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="reach.html"><span>HOW TO REACH</span></a>
+                    <a class="nav-link" href="reach.php"><span>HOW TO REACH</span></a>
                 </li>
 
             </ul>
@@ -71,7 +74,7 @@
                 </a>
             </div>
             <div class="book-btn ">
-                <a href="booking.html">
+                <a href="booking.php">
                     <button type="submit" class="btn btn-primary btn-uppercase w-100">
                         <i class="hicon hicon-bold hicon-menu-bookings"></i>
                         <span>PLAN YOUR TRIP</span>
@@ -104,28 +107,28 @@
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="Loghut.html">Loghut Package</a>
+                        <a class="dropdown-item" href="loghut.php
+
+">Loghut Package</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="cottage.html">Cottage Package</a>
+                        <a class="dropdown-item" href="cottage.php">Cottage Package</a>
                     </li>
 
                 </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="gallery.html"><i class="hicon hicon-bold hicon-camera-hover"></i><span>PHOTO
+                <a class="nav-link" href="gallery.php"><i class="hicon hicon-bold hicon-camera-hover"></i><span>PHOTO
                         GALLERY</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="things-to-do.html"><i
+                <a class="nav-link" href="things-to-do.php"><i
                         class="hicon hicon-bold hicon-regular-hiking"></i><span>THINGS TO DO</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="reach.html"> <i class="hicon hicon-bold hicon-map-entry"></i><span>HOW TO
+            <li class="nav-item border-bottom">
+                <a class="nav-link" href="reach.php"> <i class="hicon hicon-bold hicon-map-entry"></i><span>HOW TO
                         REACH</span></a>
             </li>
-            <hr>
-
             <li class="nav-item mt-4">
 
                 <a class="nav-link" href="tel:+919480022108">
@@ -137,7 +140,7 @@
 
         </ul>
 
-        <a href="booking.html">
+        <a href="booking.php">
             <button type="submit" class="btn text-white btn-primary btn-uppercase w-100">
                 <i class="hicon hicon-bold hicon-menu-bookings"></i>
                 <span>PLAN YOUR TRIP</span>
@@ -203,24 +206,16 @@
                     $admin_message .= "Adults: $adults\n";
                     $admin_message .= "Children: $children\n";
                 }
-
                 // Send email to Admin
-                $adminEmailSent = mail($admin_email, $subject, $admin_message, "From: $email");
+                $adminEmailSent = mail($admin_email, $subject, $admin_message, "From: $email\nReply-To: $email");
 
                 // Confirmation email to the user
                 $user_subject = "Thank You for " . (!empty($message) ? "Contacting Us" : "Your Booking Request");
                 $user_message = "Dear $name,\n\n";
                 $user_message .= "Thank you for " . (!empty($message) ? "reaching out to us." : "your booking request.") . "\n";
-                $user_message .= "We will get back to you shortly.\n\nBest Regards,\nYour Company Name";
+                $user_message .= "We will get back to you shortly.\n\nBest Regards,\nRivertern Lodge Bhadra";
 
-                $userEmailSent = mail($email, $user_subject, $user_message, "From: $admin_email");
-
-
-
-
-
-
-
+                $userEmailSent = mail($email, $user_subject, $user_message, "From: $admin_email\nReply-To: $admin_email");
 
 
                 if ($adminEmailSent && $userEmailSent) {
@@ -228,7 +223,7 @@
               <section class=" hero mt-4 p-top-40 p-bottom-50 sub-page-hero">
 
             <div id="thank-you-bg" style=" 
-    background-image: url(assets/img/background/thankyou-svg.svg);
+            background-image: url(assets/img/background/thankyou-svg.svg);
             background-repeat: no-repeat;
             object-fit: cover;
             background-repeat: no-repeat; padding-inline: 1rem;
@@ -293,7 +288,7 @@
                 echo "<script>alert('" . implode("\\n", $errors) . "'); window.history.back();</script>";
             }
         } else {
-            header("Location: index.html");
+            header("Location: index.php");
             exit;
         }
 
@@ -303,8 +298,8 @@
     </main>
 
 
-    <!-- footer area start -->
 
+    <!-- Footer -->
     <footer class="footer">
 
         <!-- Footer top -->
@@ -314,9 +309,9 @@
                     <div class="col-12 col-xl-4 me-5  col-md-6 ">
                         <!-- Brand -->
                         <div class="footer-widget ">
-                            <a href="index.html" class="brand-img">
-                                <!-- <img class="me-4" src="assets/img/logos/footer-Logo.webp" alt=""> -->
-                                <h2>River Tern Lodge Bhadra</h2>
+                            <a href="index.php" class="brand-img">
+                                <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RiverTern"> -->
+                                <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
                             <p class="brand-desc text-white ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus a maiores
@@ -325,19 +320,19 @@
                             <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/paypal.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/paypal.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/mastercard.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/mastercard.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/visa.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/visa.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/american-express.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/american-express.svg" alt="payment-icons">
                                 </li>
                                 <li class="social-item">
-                                    <img src="assets/img/FooteSVG/rupay.svg" alt="payment-icons">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/FooteSVG/rupay.svg" alt="payment-icons">
                                 </li>
                             </ul>
                         </div>
@@ -347,49 +342,51 @@
                     <div class="col-12 col-xl-2  col-md-6">
                         <!-- Quick Links -->
                         <div class="footer-widget">
-                            <h2 class="h4 pb-2">Navigation</h2>
+                            <h4 class="h4 text-white pb-2">Navigation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="about.html">About River Tern</a>
+                                    <a href="about.php">About River Tern</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="gallery.html">Photo Gallery</a>
+                                    <a href="gallery.php">Photo Gallery</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="things-to-do.html">Things To Do </a>
+                                    <a href="things-to-do.php">Things To Do </a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="reach.html">How To Reach</a>
+                                    <a href="reach.php">How To Reach</a>
                                 </li>
 
                             </ul>
                         </div>
                         <!-- /Quick Links -->
                     </div>
-                    <div class="col-12 col-xl-3 col-md-6  ">
+                    <div class="col-12 col-xl-2 me-5 col-md-6  ">
                         <!-- Quick Links -->
                         <div class="footer-widget">
-                            <h2 class="h4 pb-2">Accommodation</h2>
+                            <h4 class="h4 text-white pb-2">Accommodation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="Loghut.html">Loghut Package</a>
+                                    <a href="loghut.php
+
+">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="cottage.html">Cottage Package</a>
+                                    <a href="cottage.php">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.html">Contact Us</a>
+                                    <a href="contact.php">Contact Us</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="cancellation.html">Cancellation Policy</a>
+                                    <a href="cancellation.php">Cancellation Policy</a>
                                 </li>
                             </ul>
                         </div>
                         <!-- /Quick Links -->
                     </div>
                     <div class="col-12 col-xl-3 col-md-6">
-                        < class="footer-widget">
-                            <h2 class="h4 pb-2"> Get In Touch </h2>
+                        <div class="footer-widget">
+                            <h4 class="h4 text-white pb-2"> Get In Touch </h4>
                             <!-- Mobile App -->
 
                             <div class="footer-local">
@@ -418,16 +415,16 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com ">book@riverternlodge.com
+                                    <a href="mailto:book@riverternlodge.com">book@riverternlodge.com
                                     </a>
                                 </div>
 
                             </div>
                             <!-- /Social -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
         <!-- /Footer top -->
 
@@ -439,17 +436,17 @@
 
                     <div class="col-12 col-md-6">
                         <p class="mb-lg-0">© <span class="me-2" id="currentYear"></span> <span id="footer-mark"><a
-                                    href="index.html">RiverternLodgeBhadra.com.</a></span> All rights reserved.</p>
+                                    href="index.php">RiverternLodgeBhadra.com.</a></span> All rights reserved.</p>
                     </div>
 
                     <div class="col-12 col-md-6">
                         <div class="text-start text-md-end">
                             <ul class="list-inline mb-lg-0">
                                 <li class="list-inline-item">
-                                    <a href="terms.html">Terms and Conditions</a>
+                                    <a href="terms.php">Terms and Conditions</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="privacy.html">Privacy Policy</a>
+                                    <a href="privacy.php">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>
@@ -460,7 +457,6 @@
         <!-- /Footer Bottom -->
 
     </footer>
-    <!-- footer area end -->
 
     <script defer src="assets/js/theme-1.min.js"></script>
     <script defer src="assets/js/theme-2.min.js"></script>
