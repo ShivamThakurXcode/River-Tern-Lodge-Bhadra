@@ -140,9 +140,7 @@
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="loghut.php
-
-">Loghut Package</a>
+                        <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -200,8 +198,7 @@
                 </div>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.php
-">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
 
                         <li class="breadcrumb-item active" aria-current="page">Photo Gallery</li>
                     </ol>
@@ -377,21 +374,7 @@
                     <!-- /Photos -->
 
                 </div>
-                <div class="card border-0 shadow-sm p-xl-2 aos-init ">
-                    <div class="card-body">
-                        <div class="border-bottom mb-4 pb-4">
-                            <h3 class="text-body-emphasis mb-0">Unveil the Secrets of River Tern Lodge Bhadra</h3>
-                        </div>
-                        <div class="d-lg-flex border-bottom pb-3 mb-4">
-                            <div class="mnw-200 guest-icon">
-                                <i class="hicon hicon-bold hicon-lake-view"></i>
-                            </div>
-                            <p>Embark on a visual journey through our gallery, capturing the essence of River Tern Lodge
-                                Bhadra's breathtaking surroundings, vibrant wildlife, and unforgettable experiences
-                                amidst the picturesque Bhadra Reservoir in Karnataka's Western Ghats.</p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
         </section>
@@ -415,9 +398,7 @@
                                 <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RiverTern"> -->
                                 <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
-                            <p class="brand-desc text-white ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus a maiores
-                                aliquid? Maiores, voluptate nesciunt minus assumenda animi recusandae!
+                            <p class="brand-desc text-white ">Reconnect with nature at Rivertern Lodge, Bhadra. Peaceful surroundings, exciting adventures, and cozy comfort—your perfect escape is here.
                             </p>
                             <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">
@@ -469,9 +450,7 @@
                             <h4 class="h4 text-white pb-2">Accommodation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="loghut.php
-
-">Loghut Package</a>
+                                    <a href="loghut.php">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cottage.php">Cottage Package</a>

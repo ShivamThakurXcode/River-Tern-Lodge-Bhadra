@@ -6075,8 +6075,8 @@ h6 {
 }
 
 .form-control {
-    padding: .625rem 1rem;
-    font-size: var(--bs-body-font-size)
+    padding: .6rem 0.7rem;
+    font-size: 1rem;
 }
 
 .form-control:focus,
@@ -10965,6 +10965,8 @@ tbody td {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+    max-width: 60%;
+    margin-inline: auto;
 }
 
 .header_in .logo-section {
@@ -10972,11 +10974,13 @@ tbody td {
 }
 
 .header_in .navbar-nav .nav-link {
-    font-size: 1.1rem;
+    font-size: 0.9em;
     font-weight: 600;
     padding: 1.7rem 0;
-    margin-right: 2.3rem;
+    margin-right: 2.1rem;
     color: #424343;
+    text-wrap: nowrap;
+
 }
 
 .header_in .navbar-nav .nav-link:hover {
@@ -10984,6 +10988,13 @@ tbody td {
     text-decoration: underline;
 }
 
+.header_in .cta-btn {
+    margin-right: 1rem;
+}
+
+.header_in .book-btn {
+    text-wrap: nowrap;
+}
 
 
 button {

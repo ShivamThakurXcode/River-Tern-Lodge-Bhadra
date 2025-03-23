@@ -111,8 +111,7 @@
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="loghut.php
-">Loghut Package</a>
+                        <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -344,9 +343,7 @@
                                 <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RiverTern"> -->
                                 <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
-                            <p class="brand-desc text-white ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus a maiores
-                                aliquid? Maiores, voluptate nesciunt minus assumenda animi recusandae!
+                            <p class="brand-desc text-white ">Reconnect with nature at Rivertern Lodge, Bhadra. Peaceful surroundings, exciting adventures, and cozy comfort—your perfect escape is here.
                             </p>
                             <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">

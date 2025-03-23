@@ -76,8 +76,7 @@
                     </a>
                     <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="loghut.php
-">Loghut Package</a>
+                            <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -138,8 +137,7 @@
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="loghut.php
-">Loghut Package</a>
+                        <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -197,8 +195,7 @@
                 </div>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.php
-">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
 
                         <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
                     </ol>
@@ -312,8 +309,7 @@
                         <div class="card border-0 shadow-sm ">
                             <div class="card-body">
                                 <div class="border-bottom pb-4 mb-4">
-                                    <h3 class="h3 text-center ff-primary mb-0 text-body-emphasis"> Contact to RiverTern
-                                        Bhadra</h3>
+                                    <h3 class="h3 text-center ff-primary mb-0 text-body-emphasis">Get In Touch</h3>
                                 </div>
                                 <form method="post" action="thankyou.php">
                                     <div class="border-bottom pb-4 mb-4">
@@ -413,9 +409,7 @@
                                 <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RiverTern"> -->
                                 <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
-                            <p class="brand-desc text-white ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus a maiores
-                                aliquid? Maiores, voluptate nesciunt minus assumenda animi recusandae!
+                            <p class="brand-desc text-white ">Reconnect with nature at Rivertern Lodge, Bhadra. Peaceful surroundings, exciting adventures, and cozy comfort—your perfect escape is here.
                             </p>
                             <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">
@@ -467,8 +461,7 @@
                             <h4 class="h4 text-white pb-2">Accommodation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="loghut.php
-">Loghut Package</a>
+                                    <a href="loghut.php">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cottage.php">Cottage Package</a>
@@ -514,8 +507,7 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com 
-">book@riverternlodge.com
+                                    <a href="mailto:book@riverternlodge.com">book@riverternlodge.com
                                     </a>
                                 </div>
 

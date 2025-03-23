@@ -310,7 +310,7 @@
                             <div class="image-info image-info-right image-info-vertical">
 
                                 <div class="image-center">
-                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/home/hello4.webp" class="rounded w-100" alt="RiverTern">
+                                    <img width="100%" height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/about/s2.webp" class="rounded w-100" alt="RiverTern">
                                 </div>
                             </div>
                             <!-- /Image -->
@@ -394,7 +394,7 @@
                             </span>
                             <div class="card-content">
                                 <small class="card-desc">Currency</small>
-                                <h3 class="h5 card-title">Moli</h3>
+                                <h3 class="h5 card-title">Rupees</h3>
                             </div>
                         </div>
                     </div>
@@ -416,7 +416,7 @@
                             </span>
                             <div class="card-content">
                                 <small class="card-desc">Winter (avg)</small>
-                                <h3 class="h5 card-title">41°F/5°C</h3>
+                                <h3 class="h5 card-title">18°C</h3>
                             </div>
                         </div>
                     </div>
@@ -427,7 +427,7 @@
                             </span>
                             <div class="card-content">
                                 <small class="card-desc">Summer (avg)</small>
-                                <h3 class="h5 card-title">68°F/20°C</h3>
+                                <h3 class="h5 card-title">35°C</h3>
                             </div>
                         </div>
                     </div>
@@ -438,7 +438,7 @@
                             </span>
                             <div class="card-content">
                                 <small class="card-desc">Time Zone</small>
-                                <h3 class="h5 card-title">GMT+2</h3>
+                                <h3 class="h5 card-title">GMT+5:30</h3>
                             </div>
                         </div>
                     </div>
@@ -490,7 +490,7 @@
                                 Whether you're a nature lover, adventure enthusiast, or seeking a peaceful retreat, our
                                 lodge provides an ideal setting to create lasting memories. For reservations and
                                 inquiries, please get in touch with us at book@riverternlodge.com or call
-                                +91-12345-12345.<br><br>
+                                +91-9480022108.<br><br>
                                 Embark on a journey where nature meets comfort at River Tern Lodge, Bhadra.
                             </p>
 
@@ -544,12 +544,9 @@
                         <!-- Brand -->
                         <div class="footer-widget ">
                             <a href="index.php" class="brand-img">
-                                <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RiverTern"> -->
                                 <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
-                            <p class="brand-desc text-white ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus a maiores
-                                aliquid? Maiores, voluptate nesciunt minus assumenda animi recusandae!
+                            <p class="brand-desc text-white ">Reconnect with nature at Rivertern Lodge, Bhadra. Peaceful surroundings, exciting adventures, and cozy comfort—your perfect escape is here.
                             </p>
                             <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">
@@ -601,8 +598,7 @@
                             <h4 class="h4 text-white pb-2">Accommodation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="loghut.php
-">Loghut Package</a>
+                                    <a href="loghut.php">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cottage.php">Cottage Package</a>
@@ -648,8 +644,7 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com 
-">book@riverternlodge.com
+                                    <a href="mailto:book@riverternlodge.com ">book@riverternlodge.com
                                     </a>
                                 </div>
 

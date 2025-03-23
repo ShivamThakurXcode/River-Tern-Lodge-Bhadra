@@ -249,7 +249,7 @@
                     </li>
                     <li class="col-6 col-xl-3">
                         <div class="stats-item">
-                            <span class="h1 stats-number">5.0</span>
+                            <span class="h1 stats-number">4.5</span>
                             <p class="stats-desc">
                                 <span class="star-rate-view star-rate-size-sm"><span
                                         class="star-value rate-50"></span></span>
@@ -358,7 +358,7 @@
         <section id="accommodation" class="p-top-50 accommodation-section p-bottom-90 bg-gray-gradient">
             <div class="container">
                 <div class="block-title m-xxl-auto mb-5 text-center pb-5">
-                    <small class="sub-title">Tour categories</small>
+                    <small class="sub-title">All Inclusive Packages</small>
                     <h3 class="h1 title">Accommodation Types</h3>
                 </div>
                 <div class="row g-0">
@@ -436,10 +436,10 @@
 
                             <div class="tour-content">
                                 <h3 class="tour-title">
-                                    <a href="loghut.php">Loghut Package - Nature's Nest</a>
+                                    <a href="loghut.php"><strong style="font-weight: 700;">LOGHUT PACKAGE</strong> - Nature's Nest</a>
                                 </h3>
-                                <div class="tour-info  ">
-                                    <div class="tour-itinerary">
+                                <div class=" tour-info ">
+                                    <div class=" tour-itinerary">
                                         <span><i class="hicon hicon-menu-calendar"></i> 2 days</span>
                                         <span><i class="hicon hicon-flights-pin"></i> Bhadra</span>
                                     </div>
@@ -539,7 +539,7 @@
 
                             <div class="tour-content">
                                 <h3 class="tour-title">
-                                    <a href="./cottage.php">Cottage Package - Charming Haven</a>
+                                    <a href="./cottage.php"> <strong style="font-weight: 700;">COTTAGE PACKAGE</strong> - Charming Haven</a>
                                 </h3>
                                 <div class="tour-info  ">
                                     <div class="tour-itinerary">
@@ -590,7 +590,7 @@
                                     <i class="hicon hicon hicon-bold hicon-menu-calendar"></i>
                                     <span>plan your trip</span>
                                 </a>
-                                <a href="./contact.php"
+                                <a href="contact.php"
                                     class="btn btn-outline-light whiteHover btn-uppercase mnw-180 me-2 ms-2 mt-4">
                                     <i class="hicon hicon-email-envelope"></i>
                                     <span>Contact Us</span>
@@ -632,8 +632,8 @@
                         <div class="image-info image-info-vertical">
                             <div class="vertical-title">
                                 <small>
-                                    <strong class="text-primary fw-semibold">tag line for </strong> - <strong
-                                        class="text-body fw-semibold">sub line
+                                    <strong class="text-primary fw-semibold">Experience Wildlife</strong> - <strong
+                                        class="text-body fw-semibold">Nature Harmony</strong>
                                 </small>
                             </div>
 
@@ -699,183 +699,6 @@
         </section>
 
 
-
-        <!-- Categories -->
-        <section class="p-top-90 p-bottom-90 bg-gray-gradient">
-            <div class="container">
-                <!-- Title -->
-                <div class="d-xl-flex align-items-xl-center pb-4">
-                    <div class="block-title me-auto">
-                        <small class="sub-title">Tour categories</small>
-                        <h3 class="h1 title">Adventure types</h3>
-                    </div>
-                    <div class="fw-normal text-secondary mt-3">
-                        You need <a href="contact.php"><abbr title="Go to contact page"
-                                class="fw-semibold">Help</abbr></a>?
-                    </div>
-                </div>
-                <!-- /Title -->
-                <!-- Category list -->
-                <div class="row g-3">
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <span class="card-icon">
-                                <i class="hicon hicon-regular-valley"></i>
-                            </span>
-                            <div class="card-content">
-                                <h3 class="h5 card-title">Ecotourism & Resort</h3>
-                                <small class="card-desc">124 tours</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-regular-meal"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Food & Culinary</h3>
-                                    <small class="card-desc">231 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-culture"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">In-depth Cultural</h3>
-                                    <small class="card-desc">271 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-mountain-view"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Explorer & Adventure</h3>
-                                    <small class="card-desc">311 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-china-only"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Festival & Events</h3>
-                                    <small class="card-desc">219 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-regular-mountain-view"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Museums & Exhibitions</h3>
-                                    <small class="card-desc">189 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-regular-hiking"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Hiking & Trekking</h3>
-                                    <small class="card-desc">167 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-bicycle-rental"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Motor & Bicycles</h3>
-                                    <small class="card-desc">112 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-regular-yachting"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Ships & boats</h3>
-                                    <small class="card-desc">301 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-family-with-teens"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Family Activities</h3>
-                                    <small class="card-desc">211 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-massage"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Health & Spa</h3>
-                                    <small class="card-desc">189 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xxl-3 col-xl-4 col-md-6">
-                        <div class="mini-card card-hover hover-effect shadow-sm rounded">
-                            <div class="d-flex align-items-center">
-                                <span class="card-icon">
-                                    <i class="hicon hicon-library"></i>
-                                </span>
-                                <div class="card-content">
-                                    <h3 class="h5 card-title">Educational</h3>
-                                    <small class="card-desc">129 tours</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Category list -->
-            </div>
-        </section>
-        <!-- /Categories -->
 
 
 
@@ -977,9 +800,7 @@
 
                                 <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
-                            <p class="brand-desc text-white ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus a maiores
-                                aliquid? Maiores, voluptate nesciunt minus assumenda animi recusandae!
+                            <p class="brand-desc text-white ">Reconnect with nature at Rivertern Lodge, Bhadra. Peaceful surroundings, exciting adventures, and cozy comfort—your perfect escape is here.
                             </p>
                             <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">
@@ -1031,9 +852,7 @@
                             <h4 class="h4 text-white pb-2">Accommodation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="loghut.php
-
-">Loghut Package</a>
+                                    <a href="loghut.php">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cottage.php">Cottage Package</a>
@@ -1079,8 +898,7 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com 
-">book@riverternlodge.com
+                                    <a href="mailto:book@riverternlodge.com">book@riverternlodge.com
                                     </a>
                                 </div>
 
