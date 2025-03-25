@@ -14,7 +14,7 @@
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
-    <link rel="canonical" href="https://www.riverternlodgebhadra.com/thankyou.php" />
+
 
 
 
@@ -44,9 +44,7 @@
                     </a>
                     <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="loghut.php
-
-">Loghut Package</a>
+                            <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -107,9 +105,7 @@
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="loghut.php
-
-">Loghut Package</a>
+                        <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -187,7 +183,7 @@
 
             if (empty($errors)) {
                 // Admin email
-                $admin_email = "book@riverternlodge.com";
+                $admin_email = " book@riverternlodgebhadra.com";
 
                 // Subject based on the form type
                 $subject = !empty($message) ? "New Contact Form Submission" : "New Booking Request";
@@ -247,7 +243,7 @@
                             <h3 class="fs-6  review-title">Important:</h3>
                             <p class="fs-6 text-start fw-light ">
                                 We\'ve sent an email with package options and activity details to your email address.
-                                If you don\'t see it, check your spam folder. Adding book@riverternlodge.com to your
+                                If you don\'t see it, check your spam folder. Adding  book@riverternlodgebhadra.com to your
                                 address book can also help ensure you receive our messages.
                             </p>
 
@@ -365,15 +361,13 @@
                             <h4 class="h4 text-white pb-2">Accommodation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="loghut.php
-
-">Loghut Package</a>
+                                    <a href="loghut.php">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cottage.php">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.php">Contact Us</a>
+                                    <a href="contact-us.php">Contact Us</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cancellation.php">Cancellation Policy</a>
@@ -413,7 +407,7 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com">book@riverternlodge.com
+                                    <a href="mailto: book@riverternlodgebhadra.com"> book@riverternlodgebhadra.com
                                     </a>
                                 </div>
 

@@ -16,7 +16,11 @@
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
-    <link rel="canonical" href="https://www.riverternlodgebhadra.com/about.php" />
+
+    <!-- About Page -->
+    <link rel="canonical" href="https://riverternlodgebhadra.com/about.php">
+
+
 </head>
 
 <!-- /Head -->
@@ -489,7 +493,7 @@
                             <p> We invite you to experience the tranquillity and adventure River Tern Lodge offers.
                                 Whether you're a nature lover, adventure enthusiast, or seeking a peaceful retreat, our
                                 lodge provides an ideal setting to create lasting memories. For reservations and
-                                inquiries, please get in touch with us at book@riverternlodge.com or call
+                                inquiries, please get in touch with us at book@riverternlodgebhadra.com or call
                                 +91-9480022108.<br><br>
                                 Embark on a journey where nature meets comfort at River Tern Lodge, Bhadra.
                             </p>
@@ -511,10 +515,10 @@
 
                             <div class="cta-btn mt-2  me-4 ">
 
-                                <a class=" btn mnw-180" href="mailto:book@riverternlodge.com">
+                                <a class=" btn mnw-180" href="mailto: book@riverternlodgebhadra.com">
 
                                     <i class="hicon hicon-bold hicon-email-envelope"></i>
-                                    <span>book@riverternlodge.com</span>
+                                    <span> book@riverternlodgebhadra.com</span>
 
                                 </a>
                             </div>
@@ -604,7 +608,7 @@
                                     <a href="cottage.php">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.php">Contact Us</a>
+                                    <a href="contact-us.php">Contact Us</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cancellation.php">Cancellation Policy</a>
@@ -644,7 +648,7 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com ">book@riverternlodge.com
+                                    <a href="mailto: book@riverternlodgebhadra.com "> book@riverternlodgebhadra.com
                                     </a>
                                 </div>
 

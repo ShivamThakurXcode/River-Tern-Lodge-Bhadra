@@ -7,19 +7,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Cancellation Policy - Rivertern Lodge Bhadra </title>
+    <title>Contact Us - Rivertern Lodge Bhadra </title>
     <meta name="description"
-        content="Learn about the cancellation policy of River Tern Lodge Bhadra, a tranquil retreat in Karnataka's Chikmagalur district.">
-    <meta name="keywords" content="River Tern Lodge Bhadra, Cancellation Policy, Refund, Booking, Terms and Conditions">
-    <meta name="author" content="Rivertern Lodge Bhadra">
+        content="Get in touch with Rivertern Lodge Bhadra, a tranquil retreat in Karnataka's Chikmagalur district.">
+    <meta name="keywords"
+        content="Rivertern Lodge Bhadra, Contact Us, Karnataka, Chikmagalur, Eco-Lodge, Nature Retreat, Adventure, Wildlife Sanctuary">
+
     <link href="assets/img/logos/favicon.webp" rel="shortcut icon" type="image/png">
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
 
-    <!-- Cancellation Page -->
-    <link rel="canonical" href="https://riverternlodgebhadra.com/cancellation.php">
+    <!-- Contact Us -->
+    <link rel="canonical" href="https://riverternlodgebhadra.com/contact-us.php">
+
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
 
 </head>
@@ -48,13 +52,11 @@
 
         <!-- Hero section skeleton -->
         <div class="hero-skeleton">
-
             <div class="small-text-skeleton shimmer"></div>
             <div class="large-text-skeleton-2 shimmer"></div>
             <div class="large-text-skeleton shimmer"></div>
             <div class="large-text-skeleton-2 shimmer"></div>
             <div class="button-skeleton shimmer"></div>
-
         </div>
     </div>
 
@@ -67,13 +69,12 @@
 
 
             <div class="logo-section">
-                <a class="navbar-brand d-flex" href="index.php">
-                    <img height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/logos/Logo.webp" alt="RIvertern-img">
-
+                <a class="navbar-brand" href="index.php">
+                    <img height="100%" sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px" src="assets/img/logos/Logo.webp" alt="RiverTern">
                 </a>
             </div>
 
-            <ul class=" navbar-nav">
+            <ul class="navbar-nav">
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -82,8 +83,7 @@
                     </a>
                     <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="loghut.php
-">Loghut Package</a>
+                            <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -103,7 +103,7 @@
 
             </ul>
             <div class="cta-btn ">
-                <a class="btn    mnw-180" href="tel:+919480022108">
+                <a class="btn    mnw-180" href="tel:+9480022108">
 
                     <i class="hicon hicon-bold hicon-telephone"></i>
                     <span>+91-9480022108</span>
@@ -144,8 +144,7 @@
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="loghut.php
-">Loghut Package</a>
+                        <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -167,7 +166,7 @@
             </li>
             <li class="nav-item mt-4">
 
-                <a class="nav-link" href="tel:+919480022108">
+                <a class="nav-link" href="tel:+9480022108">
                     <i class="hicon hicon-bold hicon-telephone"></i>
                     <span>+91-9480022108</span>
                 </a>
@@ -186,6 +185,7 @@
     </div>
     <!-- /Sidebar -->
 
+
     <!-- Main -->
     <main>
         <!-- Title -->
@@ -195,45 +195,43 @@
             </div>
             <div class="bg-content container">
                 <div class="hero-page-title">
-                    <span class="hero-sub-title">Flexible Plans, Seamless Changes</span>
+                    <span class="hero-sub-title">We're Here for You.</span>
                     <h1 class="display-3 hero-title">
-                        Cancellation and Rescheduling Policy
+                        Contact Us
                     </h1>
                 </div>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.php
-">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
 
-                        <li class="breadcrumb-item active" aria-current="page">Cancellation</li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
                     </ol>
                 </nav>
             </div>
         </section>
         <!-- /Title -->
 
+        <div class="p-top-90 p-bottom-90 bg-gray-gradient aos-init aos-animate">
 
-        <!-- Tour details -->
-        <section class="p-top-50 p-bottom-50 bg-gray-gradient">
-            <div class="container">
+            <!-- Title -->
+            <section class="container">
 
                 <div class="card border-0 shadow-sm p-xl-2 mb-5 aos-init aos-animate" data-aos="fade">
                     <div class="card-body">
                         <div class="border-bottom mb-4 pb-4">
-                            <h2 class="text-body-emphasis mb-0"> What You Need to
-                                Know</h2>
+                            <h2 class="text-body-emphasis mb-0">We'd Love to Hear from You!
+                            </h2>
                         </div>
                         <div class="d-lg-flex border-bottom pb-3 mb-4">
                             <div class="mnw-200 guest-icon">
-
-                                <i class="hicon hicon-cancel-booking"></i>
-
-
+                                <i class="hicon hicon-instant-booking"></i>
                             </div>
                             <p>
-                                Life happens, and sometimes plans change—that's okay. We've outlined our cancellation
-                                and rescheduling policies below to keep things smooth and fair for everyone. Let's break
-                                it down together:
+                                Do you have a question or feedback or want to say hello? We're here for it all! Don't
+                                hesitate to reach out if you need assistance, have suggestions, or want to chat. Fill
+                                out the form below, drop us an email, or give us a call—we'll get back to you as soon as
+                                possible.
+
                             </p>
 
                         </div>
@@ -242,149 +240,156 @@
                     </div>
                 </div>
 
-                <div class="card border-0 shadow-sm mb-5 p-xl-2 aos-init aos-animate">
-                    <div class="card-body">
-                        <div class="border-bottom d-flex align-items-center pb-4 mb-4">
-                            <h3 class="h4 me-auto mb-0">Cancellation Policy</h3>
 
-                        </div>
-                        <div class="review-list">
-                            <div class="review-item">
 
-                                <p>Need to cancel your booking? No problem, but here's how it works:
-                                </p>
+            </section>
+            <!-- Title -->
+
+            <!-- Contact Information -->
+            <section class="container">
+                <div class="row g-0">
+                    <div class="col-12 col-xl-4">
+                        <!-- Contact Details -->
+                        <div class="pe-xl-4 me-xl-2">
+                            <div class="card border-0 shadow-sm mb-4 aos-init aos-animate">
+                                <div class="card-body">
+                                    <div class="border-bottom pb-4 mb-4">
+                                        <h3 class="h3 ff-primary mb-0 text-body-emphasis">Contact Details</h3>
+                                    </div>
+
+                                    <div class="border-bottom pb-4 mb-4">
+                                        <h3 class="h5 mb-3">Main Office</h3>
+                                        <div class="d-flex flex-column">
+                                            <p class="mb-2">
+                                                <i class="hicon hicon-map-entry"></i>
+                                                <a class="px-3 text-black">Rivertern Lodge Bhadra,<br>
+                                                    Behind Ranganathaswamy
+                                                    Temple,<br> Tarikere, Lakkavalli, <br>
+                                                    Karnataka 577115</a>
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="border-bottom pb-4 mb-4">
+                                        <h3 class="h5 mb-3">Contact Us</h3>
+                                        <div class="d-flex flex-column">
+                                            <p class="mb-2">
+                                                <i class="hicon hicon-telephone me-2"></i>
+                                                +91 9480022108
+                                            </p>
+                                            <p class="mb-2">
+                                                <i class="hicon hicon-email-envelope me-2"></i>
+                                                book@riverternlodgebhadra.com
+
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <h3 class="h5 mb-3">Travel Advisor</h3>
+                                        <div class="rounded ">
+                                            <h3 class="fs-6  review-title"> You can call to our Travel Advisor:</h3>
+
+
+                                            <ul class="highlight-list pb-2 checked ">
+                                                <li class="mb-0 "><a href="tel:+919480022108">+91-94800-22108</a> -
+                                                    Mr.
+                                                    Ramnath</li>
+                                                <li class="mb-0 "><a href="tel:+919902474761">+91-99024-74761</a> -
+                                                    Mr.
+                                                    Sanjay </li>
+
+                                            </ul>
+                                            <p class="fs-6 text-start  ">
+                                                We will get back to you by phone or email as soon as possible.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
-
-
-                            <div class="review-item">
-                                <ul class="highlight-list checked ">
-                                    <li>
-                                        <h3 class="h5 me-auto ">More than 15 days before check-in:</h3>
-                                        <p>
-                                            You'll get most of your money back, but we'll keep 10%
-                                            of the booking amount as a processing fee.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3 class="h5 me-auto">If you cancel within 48 hours and 14 days before
-                                            check-in,</h3>
-                                        <p>
-                                            50% of the booking amount will be refunded to you.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3 class="h5 me-auto ">Less than 48 hours before check-in or no-shows:</h3>
-                                        <p>
-                                            Unfortunately, no refund will be issued.
-                                        </p>
-                                    </li>
-                                </ul>
-
-
-                            </div>
-                            <p>Cancellations must be sent to us via email—no last-minute phone calls or texts.</p>
-
                         </div>
-
+                        <!-- /Contact Details -->
                     </div>
+                    <div class="col-12 col-xl-8">
+                        <!-- Booking & Payment -->
+                        <div class="card border-0 shadow-sm ">
+                            <div class="card-body">
+                                <div class="border-bottom pb-4 mb-4">
+                                    <h3 class="h3 text-center ff-primary mb-0 text-body-emphasis">Get In Touch</h3>
+                                </div>
+                                <form method="post" action="https://www.riverternlodgebhadra.com/thankyou.php ">
+                                    <div class="border-bottom pb-3 mb-4">
+                                        <h3 class="h4 mb-4">Your Information</h3>
+                                        <div class="row g-3">
+                                            <div class="col-12">
+                                                <div class="mb-2">
+                                                    <div class="input-icon-group">
+                                                        <label class="input-icon hicon hicon-topic-user"
+                                                            for="txtName"></label>
+                                                        <input type="text" class="form-control shadow-sm" id="txtName"
+                                                            name="txtName" placeholder="Full Name" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-2">
+                                                    <div class="input-icon-group">
+                                                        <label class="input-icon hicon hicon-telephone hicon-bold"
+                                                            for="txtPhone"></label>
+                                                        <input type="tel" class="form-control shadow-sm" id="txtPhone"
+                                                            name="txtPhone" placeholder="Mobile Number" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-2">
+                                                    <div class="input-icon-group">
+                                                        <label class="input-icon hicon hicon-email-envelope hicon-bold"
+                                                            for="txtEmail"></label>
+                                                        <input type="email" class="form-control shadow-sm" id="txtEmail"
+                                                            name="txtEmail" placeholder="Email Address" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-2">
+                                                    <textarea class="form-control shadow-sm" id="txtMessage"
+                                                        name="txtMessage" placeholder="Your Message" rows="6"
+                                                        required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-12 d-flex justify-content-center">
+                                                <div class="g-recaptcha"
+                                                    data-sitekey="6Lc2vcoqAAAAAKIJAOEq-i52UQ2DmuuliLmA1Otq"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3">
+                                        <button type="submit" class="btn btn-primary btn-uppercase w-100">
+                                            <i class="hicon hicon-bold hicon-menu-bookings"></i>
+                                            <span>SEND MESSAGE</span>
+                                        </button>
+                                    </div>
+                                </form>
 
-
-
+                            </div>
+                        </div>
+                        <!-- /Booking & Payment -->
+                    </div>
                 </div>
 
-                <div class="card border-0 shadow-sm p-xl-2 mb-5 aos-init aos-animate">
-                    <div class="card-body">
-                        <div class="border-bottom d-flex align-items-center pb-4 mb-4">
-                            <h3 class="h4 me-auto mb-0">Rescheduling Policy</h3>
-
-                        </div>
-                        <div class="review-list">
-                            <div class="review-item">
-
-                                <p>
-                                    Want to shift your dates instead? We get it—plans can be unpredictable. Here's how
-                                    rescheduling works:
-                                </p>
-                            </div>
+            </section>
+            <!-- /Checkout -->
 
 
 
-
-                            <div class="review-item">
-                                <ul class="highlight-list checked ">
-                                    <li>
-                                        <h3 class="h5 me-auto ">More than 15 days before check-in:</h3>
-                                        <p>
-                                            It's free! You can reschedule or postpone (move it earlier) at no extra
-                                            cost. But here's the catch: once you've changed your dates, you can't modify
-                                            them again or cancel the booking.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3 class="h5 me-auto">Between 7 and 14 days before check-in:</h3>
-                                        <p>
-                                            A small fee of 20% of the booking amount applies.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3 class="h5 me-auto ">Between 24 hours and 7 days before check-in:</h3>
-                                        <p>
-                                            The fee increases to 50% of the booking amount.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h3 class="h5 me-auto ">Less than 24 hours before check-in:</h3>
-                                        <p>
-                                            Sorry, but no changes can be made now.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-
-                </div>
-
-
-                <div class="card border-0 shadow-sm p-xl-2 mb-5 aos-init aos-animate" data-aos="fade">
-                    <div class="card-body">
-                        <div class="border-bottom mb-4 pb-4">
-                            <h3 class="text-body-emphasis mb-0"> A Quick Heads-Up</h3>
-                        </div>
-                        <div class="d-lg-flex border-bottom pb-3 mb-4">
-                            <div class="mnw-200 guest-icon">
-
-                                <i class="hicon  hicon-reception"></i>
-
-
-                            </div>
-                            <p>
-                                If you're thinking of changing your plans, the sooner you let us know, the better. And
-                                remember, once you reschedule or postpone your booking, the original cancellation terms
-                                no longer apply.
-                                <br><br>
-                                Do you have questions? Don't hesitate to contact us. We're here to help make your
-                                experience as seamless as possible!
-                            </p>
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Tour details -->
-
-
+        </div>
 
     </main>
     <!-- /Main -->
 
+    <!-- Footer -->
     <footer class="footer">
 
         <!-- Footer top -->
@@ -395,7 +400,7 @@
                         <!-- Brand -->
                         <div class="footer-widget ">
                             <a href="index.php" class="brand-img">
-                                <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RIvertern-img"> -->
+                                <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RiverTern"> -->
                                 <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
                             <p class="brand-desc text-white ">Reconnect with nature at Rivertern Lodge, Bhadra. Peaceful surroundings, exciting adventures, and cozy comfort—your perfect escape is here.
@@ -450,8 +455,7 @@
                             <h4 class="h4 text-white pb-2">Accommodation</h4>
                             <ul class="footer-link">
                                 <li class="link-item">
-                                    <a href="loghut.php
-">Loghut Package</a>
+                                    <a href="loghut.php">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cottage.php">Cottage Package</a>
@@ -497,8 +501,7 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto: book@riverternlodgebhadra.com 
-"> book@riverternlodgebhadra.com
+                                    <a href="mailto: book@riverternlodgebhadra.com"> book@riverternlodgebhadra.com
                                     </a>
                                 </div>
 

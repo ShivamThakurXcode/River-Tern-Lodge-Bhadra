@@ -17,8 +17,13 @@
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
-    <link rel="canonical" href="https://www.riverternlodgebhadra.com/contact.php" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Contact Page -->
+
+    <link rel="canonical" href="https://riverternlodgebhadra.com/contact-us.php" />
+
+
 </head>
 
 <!-- /Head -->
@@ -273,7 +278,7 @@
                                             </p>
                                             <p class="mb-2">
                                                 <i class="hicon hicon-email-envelope me-2"></i>
-                                                book@riverternlodge.com
+                                                book@riverternlodgebhadra.com
 
                                             </p>
                                         </div>
@@ -311,8 +316,8 @@
                                 <div class="border-bottom pb-4 mb-4">
                                     <h3 class="h3 text-center ff-primary mb-0 text-body-emphasis">Get In Touch</h3>
                                 </div>
-                                <form method="post" action="thankyou.php">
-                                    <div class="border-bottom pb-4 mb-4">
+                                <form method="post" action="https://riverternlodgebhadra.com/thankyou.php ">
+                                    <div class="border-bottom pb-3 mb-4">
                                         <h3 class="h4 mb-4">Your Information</h3>
                                         <div class="row g-3">
                                             <div class="col-12">
@@ -348,7 +353,7 @@
                                             <div class="col-12">
                                                 <div class="mb-2">
                                                     <textarea class="form-control shadow-sm" id="txtMessage"
-                                                        name="txtMessage" placeholder="Your Message" rows="4"
+                                                        name="txtMessage" placeholder="Your Message" rows="6"
                                                         required></textarea>
                                                 </div>
                                             </div>
@@ -358,7 +363,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="mt-4">
+                                    <div class="mt-3">
                                         <button type="submit" class="btn btn-primary btn-uppercase w-100">
                                             <i class="hicon hicon-bold hicon-menu-bookings"></i>
                                             <span>SEND MESSAGE</span>
@@ -371,20 +376,7 @@
                         <!-- /Booking & Payment -->
                     </div>
                 </div>
-                <div class="card border-0 mt-4 pt-4 shadow-sm p-xl-2 aos-init">
-                    <div class="card-body">
-                        <div class="border-bottom mb-4 pb-4">
-                            <h3 class="text-body-emphasis mb-0">Contact River Tern Lodge Bhadra</h3>
-                        </div>
-                        <div class="d-lg-flex border-bottom pb-3 mb-4">
-                            <div class="mnw-200 guest-icon">
-                                <i class="hicon  hicon-family-special-deal"></i>
-                            </div>
-                            <p>Get in touch with River Tern Lodge Bhadra for bookings, inquiries, or feedback. Our team
-                                is here to assist you with any information you need.</p>
-                        </div>
-                    </div>
-                </div>
+
             </section>
             <!-- /Checkout -->
 
@@ -467,7 +459,7 @@
                                     <a href="cottage.php">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.php">Contact Us</a>
+                                    <a href="contact-us.php">Contact Us</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cancellation.php">Cancellation Policy</a>
@@ -507,7 +499,7 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com">book@riverternlodge.com
+                                    <a href="mailto: book@riverternlodgebhadra.com"> book@riverternlodgebhadra.com
                                     </a>
                                 </div>
 

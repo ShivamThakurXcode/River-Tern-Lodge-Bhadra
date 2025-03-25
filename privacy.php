@@ -17,7 +17,11 @@
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
-    <link rel="canonical" href="https://www.riverternlodgebhadra.com/privacy.php" />
+
+    <!-- Privacy Policy -->
+    <link rel="canonical" href="https://riverternlodgebhadra.com/privacy.php">
+
+
 </head>
 
 <!-- /Head -->
@@ -75,8 +79,7 @@
                     </a>
                     <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="loghut.php
-">Loghut Package</a>
+                            <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -137,8 +140,7 @@
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="loghut.php
-">Loghut Package</a>
+                        <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -196,8 +198,7 @@
                 </div>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.php
-">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
 
                         <li class="breadcrumb-item active" aria-current="page">Privacy Policy</li>
                     </ol>
@@ -229,7 +230,7 @@
                                 are committed to
                                 protecting any personal information you share with us. This Privacy Policy is a
                                 testament to our dedication to safeguarding your data when you visit our website
-                                <a href="https://www.riverternlodgebhadra.com ">RiverternLodgeBhadra</a> . <br> <br>
+                                <a href="https://riverternlodgebhadra.com ">RiverternLodgeBhadra</a> . <br> <br>
                                 By accessing our Website, you are in control. You have the power to agree or disagree
                                 with the terms outlined in this Privacy Policy. If you do not agree, you can choose to
                                 refrain from using our services.
@@ -457,7 +458,7 @@
                                     <li> Withdraw consent for marketing communications. </li>
                                 </ul>
                                 <p>Please get in touch with us at <a
-                                        href="mailto:book@riverternlodge.com">book@riverternlodge.com</a> to exercise
+                                        href="mailto: book@riverternlodgebhadra.com"> book@riverternlodgebhadra.com</a> to exercise
                                     these rights.</p>
                             </div>
 
@@ -536,8 +537,7 @@
 
                                 <ul style="list-style: none; padding-left: 0;">
                                     <li><i class=" hicon hicon-email-envelope "></i> <a class="px-3" href="
-                                    mailto:book@riverternlodge.com 
-">book@riverternlodge.com
+                                    mailto: book@riverternlodgebhadra.com"> book@riverternlodgebhadra.com
                                         </a>
                                     </li>
 
@@ -583,11 +583,7 @@
                                 <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RiverTern"> -->
                                 <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
-                            <p class="brand-desc text-white ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Rerum accusamus a maiores
-                                aliquid? Maiores, voluptate nesciunt minus assumenda
-                                animi recusandae!
+                            <p class="brand-desc text-white ">Reconnect with nature at Rivertern Lodge, Bhadra. Peaceful surroundings, exciting adventures, and cozy comfort—your perfect escape is here.
                             </p>
                             <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">
@@ -646,7 +642,7 @@
                                     <a href="cottage.php">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.php">Contact Us</a>
+                                    <a href="contact-us.php">Contact Us</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cancellation.php">Cancellation
@@ -689,8 +685,8 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com 
-">book@riverternlodge.com
+                                    <a href="mailto: book@riverternlodgebhadra.com 
+"> book@riverternlodgebhadra.com
                                     </a>
                                 </div>
 

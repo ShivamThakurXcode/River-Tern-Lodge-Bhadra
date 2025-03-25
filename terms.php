@@ -17,7 +17,10 @@
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
-    <link rel="canonical" href="https://www.riverternlodgebhadra.com/terms.php" />
+    <!-- Terms and Conditions -->
+    <link rel="canonical" href="https://riverternlodgebhadra.com/terms.php">
+
+
 </head>
 
 <!-- /Head -->
@@ -75,8 +78,7 @@
                     </a>
                     <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="loghut.php
-">Loghut Package</a>
+                            <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -137,8 +139,7 @@
                 </a>
                 <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
                     <li>
-                        <a class="dropdown-item" href="loghut.php
-">Loghut Package</a>
+                        <a class="dropdown-item" href="loghut.php">Loghut Package</a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="cottage.php">Cottage Package</a>
@@ -195,8 +196,7 @@
                 </div>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.php
-">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
 
                         <li class="breadcrumb-item active" aria-current="page">Terms and Conditions</li>
                     </ol>
@@ -225,7 +225,7 @@
                             </div>
                             <p>
                                 Welcome to River Tern Lodge, Bhadra ("Website," "we," "our," or "us"). By accessing or
-                                using <a href="https://www.riverternlodgebhadra.com">Riverternlodgebhadra.com</a>
+                                using <a href="https://riverternlodgebhadra.com">Riverternlodgebhadra.com</a>
                                 (the "Website"), you agree to abide by the
                                 following Terms and Conditions. If you do not accept these Terms, kindly refrain from
                                 using our Website
@@ -474,8 +474,7 @@
                                 </p>
                                 <ul style="list-style: none; padding-left: 0;">
                                     <li><i class=" hicon hicon-email-envelope "></i> <a class="px-3" href="
-                                    mailto:book@riverternlodge.com 
-">book@riverternlodge.com
+                                    mailto: book@riverternlodgebhadra.com"> book@riverternlodgebhadra.com
                                         </a>
                                     </li>
 
@@ -518,11 +517,7 @@
                                 <!-- <img  width="100%" height="100%"    sizes="(max-width: 600px) 480px, (max-width: 992px) 768px, 1200px"  class="me-4" src="assets/img/logos/footer-Logo.webp" alt="RiverTern"> -->
                                 <h4 class="h2">River Tern Lodge Bhadra</h4>
                             </a>
-                            <p class="brand-desc text-white ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Rerum accusamus a maiores
-                                aliquid? Maiores, voluptate nesciunt minus assumenda
-                                animi recusandae!
+                            <p class="brand-desc text-white ">Reconnect with nature at Rivertern Lodge, Bhadra. Peaceful surroundings, exciting adventures, and cozy comfort—your perfect escape is here.
                             </p>
                             <h4 class="text-white">Secure Online Booking</h4>
                             <ul class="social-list">
@@ -578,10 +573,10 @@
 ">Loghut Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.php">Cottage Package</a>
+                                    <a href="contact-us.php">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.php">Contact Us</a>
+                                    <a href="contact-us.php">Contact Us</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cancellation.php">Cancellation
@@ -624,8 +619,8 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com 
-">book@riverternlodge.com
+                                    <a href="mailto: book@riverternlodgebhadra.com 
+"> book@riverternlodgebhadra.com
                                     </a>
                                 </div>
 

@@ -18,7 +18,11 @@
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
-    <link rel="canonical" href="https://www.riverternlodgebhadra.com/reach.php" />
+
+    <!-- Reach -->
+    <link rel="canonical" href="https://riverternlodgebhadra.com/reach.php">
+
+
 </head>
 
 <!-- /Head -->
@@ -590,7 +594,7 @@
                                     <a href="cottage.php">Cottage Package</a>
                                 </li>
                                 <li class="link-item">
-                                    <a href="contact.php">Contact Us</a>
+                                    <a href="contact-us.php">Contact Us</a>
                                 </li>
                                 <li class="link-item">
                                     <a href="cancellation.php">Cancellation Policy</a>
@@ -630,8 +634,8 @@
                                 </div>
                                 <div class=" footer-contact  col-8">
                                     <a href="tel:+9480022108">+91-9480022108</a>
-                                    <a href="mailto:book@riverternlodge.com 
-">book@riverternlodge.com
+                                    <a href="mailto: book@riverternlodgebhadra.com 
+"> book@riverternlodgebhadra.com
                                     </a>
                                 </div>
 
