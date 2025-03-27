@@ -5782,7 +5782,7 @@
     --bs-box-shadow-xs: 0.1rem 0.25rem 0.25rem rgba(0, 0, 0, 0.055);
     --bs-box-shadow-sm: 0 0.15rem 0.35rem rgba(0, 0, 0, 0.075);
     --bs-box-shadow-lg: 0 0.55rem 1rem rgba(0, 0, 0, 0.175);
-    --bs-dark-blue: #0a3e59;
+    --bs-light-green: #4d6f1f;
     --bs-dark-blue-rgb: 10, 62, 89;
     --bs-light-gray: #e9ecef;
     --bs-light-gray-rgb: 244, 245, 247
@@ -8205,11 +8205,16 @@ tbody td {
 }
 
 .header-topbar {
-    background-color: var(--bs-dark-blue);
+    background-image: -webkit-gradient(linear, left top, right top, from(#1e5128), color-stop(#27632d), to(#2e7432));
+    background-image: -o-linear-gradient(left, #1e5128, #27632d, #2e7432);
+    background-image: linear-gradient(to right, #1e5128, #27632d, #2e7432);
+
+    background-color: #386641;
     height: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: end;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -8645,10 +8650,8 @@ tbody td {
 }
 
 .hero {
-    position: relative;
-    top: 5rem;
-    margin-bottom: 5rem;
-
+    margin-top: 7rem;
+    background: #000;
 
 }
 
@@ -8711,6 +8714,15 @@ tbody td {
     font-family: "Outfit", sans-serif;
 
 
+}
+
+.sub-page-hero {
+    margin-top: 7rem;
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
 }
 
 .hero .hero-sub-title {
@@ -10932,7 +10944,7 @@ tbody td {
     background: #fff;
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-    padding: 4px 20px;
+
     width: 100%;
     position: fixed;
     top: 0;
@@ -10943,6 +10955,7 @@ tbody td {
 .header_in {
     display: -webkit-box;
     display: -ms-flexbox;
+    padding-inline: 1.5rem;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
